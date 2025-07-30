@@ -3,70 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Framework de Usabilidade WebGIS</title>
+  <title>Framework WebGIS com Similaridade</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-light">
   <div class="container py-5">
-    <h2 class="mb-4">Recomendação de Métodos de Avaliação de Usabilidade em WebGIS</h2>
+    <h2 class="mb-4">Recomendação por Similaridade - Framework WebGIS</h2>
     <form id="formulario" class="row g-3">
       <div class="col-md-6">
         <label class="form-label">Tipo de Tarefa</label>
         <select class="form-select" name="Tipo de Tarefa">
           <option selected disabled>Escolha uma opção</option>
-          <option>Navegação</option>
-          <option>Decisão espacial</option>
-          <option>Coleta de dados</option>
-          <option>Exploratória</option>
-          <option>Participativa</option>
+          <option value="1">Navegação</option>
+          <option value="2">Decisão espacial</option>
+          <option value="3">Coleta de dados</option>
+          <option value="4">Exploratória</option>
+          <option value="5">Participativa</option>
         </select>
       </div>
       <div class="col-md-6">
         <label class="form-label">Perfil do Usuário</label>
         <select class="form-select" name="Perfil do Usuário">
           <option selected disabled>Escolha uma opção</option>
-          <option>Leigo</option>
-          <option>Especialista</option>
-          <option>Misto</option>
+          <option value="1">Leigo</option>
+          <option value="2">Especialista</option>
+          <option value="3">Misto</option>
         </select>
       </div>
       <div class="col-md-6">
         <label class="form-label">Ambiente da Avaliação</label>
         <select class="form-select" name="Ambiente">
           <option selected disabled>Escolha uma opção</option>
-          <option>Laboratório</option>
-          <option>Campo</option>
-          <option>Remoto</option>
-          <option>Móvel</option>
+          <option value="1">Laboratório</option>
+          <option value="2">Campo</option>
+          <option value="3">Remoto</option>
+          <option value="4">Móvel</option>
         </select>
       </div>
       <div class="col-md-6">
         <label class="form-label">Fase do SDLC</label>
         <select class="form-select" name="Fase do SDLC">
           <option selected disabled>Escolha uma opção</option>
-          <option>Requisitos</option>
-          <option>Prototipação</option>
-          <option>Implementação</option>
-          <option>Operação</option>
+          <option value="1">Requisitos</option>
+          <option value="2">Prototipação</option>
+          <option value="3">Implementação</option>
+          <option value="4">Operação</option>
         </select>
       </div>
       <div class="col-md-6">
         <label class="form-label">Objetivo da Avaliação</label>
         <select class="form-select" name="Objetivo da Avaliação">
           <option selected disabled>Escolha uma opção</option>
-          <option>Detecção de problemas</option>
-          <option>Comparação de versões</option>
-          <option>Validação de requisitos</option>
-          <option>Medição de desempenho</option>
+          <option value="1">Detecção de problemas</option>
+          <option value="2">Comparação de versões</option>
+          <option value="3">Validação de requisitos</option>
+          <option value="4">Medição de desempenho</option>
         </select>
       </div>
       <div class="col-md-6">
         <label class="form-label">Recursos Disponíveis</label>
         <select class="form-select" name="Recursos Disponíveis">
           <option selected disabled>Escolha uma opção</option>
-          <option>Baixo</option>
-          <option>Médio</option>
-          <option>Alto</option>
+          <option value="1">Baixo</option>
+          <option value="2">Médio</option>
+          <option value="3">Alto</option>
         </select>
       </div>
       <div class="col-12">
@@ -84,10 +84,19 @@
   </div>
 
   <script>
-    let regras = [];
-    fetch("Regras_Framework_WebGIS.json")
+    let dados = [];
+    fetch("Regras_Framework_WebGIS_codificado.json")
       .then(res => res.json())
-      .then(json => regras = json);
+      .then(json => dados = json);
+
+    function distancia(a, b) {
+      return Object.keys(a).reduce((acc, key) => {
+        if (key !== "Método(s) Recomendado(s)" && key !== "Justificativa") {
+          acc += Math.abs(a[key] - b[key]);
+        }
+        return acc;
+      }, 0);
+    }
 
     document.getElementById("formulario").addEventListener("submit", function(event) {
       event.preventDefault();
@@ -99,20 +108,27 @@
         return;
       }
 
-      const regra = regras.find(r => {
-        return Object.keys(r.se).every(k => r.se[k] === entrada[k]);
-      });
+      const entradaNum = Object.fromEntries(Object.entries(entrada).map(([k, v]) => [k, parseInt(v)]));
 
-      const resultado = document.getElementById("resultado");
-      if (regra) {
-        document.getElementById("metodos").textContent = regra.entao["Método(s) Recomendado(s)"];
-        document.getElementById("justificativa").textContent = regra.entao["Justificativa"];
-        resultado.style.display = "block";
-      } else {
-        document.getElementById("metodos").textContent = "Não há recomendação para esta combinação.";
-        document.getElementById("justificativa").textContent = "Considere revisar os critérios ou ampliar a base de regras.";
-        resultado.style.display = "block";
+      const vizinhos = dados.map(item => {
+        return {
+          distancia: distancia(entradaNum, item),
+          metodo: item["Método(s) Recomendado(s)"],
+          justificativa: item["Justificativa"]
+        };
+      }).sort((a, b) => a.distancia - b.distancia).slice(0, 5);
+
+      const contagem = {};
+      for (const v of vizinhos) {
+        contagem[v.metodo] = (contagem[v.metodo] || 0) + 1;
       }
+
+      const metodoFinal = Object.entries(contagem).sort((a, b) => b[1] - a[1])[0][0];
+      const justificativaFinal = vizinhos.find(v => v.metodo === metodoFinal).justificativa;
+
+      document.getElementById("metodos").textContent = metodoFinal;
+      document.getElementById("justificativa").textContent = justificativaFinal;
+      document.getElementById("resultado").style.display = "block";
     });
 
     document.getElementById("limparBtn").addEventListener("click", function() {
