@@ -70,7 +70,7 @@
         </select>
       </div>
       <div class="col-12">
-        <button type="submit" class="btn btn-primary">Obter Recomendação</button>
+        <button type="submit" class="btn btn-primary" id="submitBtn" disabled>Obter Recomendação</button>
         <button type="reset" class="btn btn-secondary ms-2" id="limparBtn">Limpar</button>
       </div>
     </form>
@@ -135,5 +135,36 @@
       document.getElementById("resultado").style.display = "none";
     });
   </script>
+  <script>
+  // Função para verificar se todas as opções estão selecionadas
+  function verificarSelecoes() {
+    const selects = document.querySelectorAll('#formulario select');
+    const botao = document.getElementById('submitBtn');
+    let tudoSelecionado = true;
+    selects.forEach(select => {
+      if (select.selectedIndex === 0 || select.value === "" || select.disabled) {
+        tudoSelecionado = false;
+      }
+    });
+    botao.disabled = !tudoSelecionado;
+  }
+
+  // Aplica verificação a todos os selects
+  document.querySelectorAll('#formulario select').forEach(select => {
+    select.addEventListener('change', verificarSelecoes);
+  });
+
+  // Desativa botão inicialmente
+  document.addEventListener('DOMContentLoaded', function() {
+    verificarSelecoes();
+  });
+
+  // Botão limpar reseta também o botão submit
+  document.getElementById("limparBtn").addEventListener("click", function() {
+    document.getElementById("resultado").style.display = "none";
+    verificarSelecoes();
+  });
+</script>
+
 </body>
 </html>
