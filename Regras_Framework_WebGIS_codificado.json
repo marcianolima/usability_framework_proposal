@@ -10,6 +10,16 @@
     "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
   },
   {
+  "Tipo de Tarefa": 1,
+  "Perfil do Usuário": 2,
+  "Ambiente": 2,
+  "Fase do SDLC": 3,
+  "Objetivo da Avaliação": 1,
+  "Recursos Disponíveis": 1,
+  "Método(s) Recomendado(s)": "C + D",
+  "Justificativa": "Registro de interações em campo (data logging) para análise do comportamento de navegação por especialistas, complementado por avaliações heurísticas para detecção eficiente de problemas, viável com baixo recurso."
+  },
+  {
     "Tipo de Tarefa": 1,
     "Perfil do Usuário": 1,
     "Ambiente": 1,
