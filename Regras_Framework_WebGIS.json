@@ -1,0 +1,562 @@
+[
+  {
+    "se": {
+      "Tipo de Tarefa": "Coleta de dados",
+      "Perfil do Usuário": "Leigo",
+      "Ambiente": "Laboratório",
+      "Fase do SDLC": "Prototipação",
+      "Objetivo da Avaliação": "Medição de desempenho",
+      "Recursos Disponíveis": "Médio"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "C + D",
+      "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Navegação",
+      "Perfil do Usuário": "Especialista",
+      "Ambiente": "Campo",
+      "Fase do SDLC": "Operação",
+      "Objetivo da Avaliação": "Comparação de versões",
+      "Recursos Disponíveis": "Alto"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "B + D",
+      "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Coleta de dados",
+      "Perfil do Usuário": "Leigo",
+      "Ambiente": "Móvel",
+      "Fase do SDLC": "Operação",
+      "Objetivo da Avaliação": "Comparação de versões",
+      "Recursos Disponíveis": "Alto"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "B",
+      "Justificativa": "Usuários leigos em campo/móvel exigem métodos qualitativos diretos e observacionais."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Coleta de dados",
+      "Perfil do Usuário": "Especialista",
+      "Ambiente": "Campo",
+      "Fase do SDLC": "Operação",
+      "Objetivo da Avaliação": "Validação de requisitos",
+      "Recursos Disponíveis": "Baixo"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "D",
+      "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Decisão espacial",
+      "Perfil do Usuário": "Especialista",
+      "Ambiente": "Remoto",
+      "Fase do SDLC": "Requisitos",
+      "Objetivo da Avaliação": "Medição de desempenho",
+      "Recursos Disponíveis": "Baixo"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "C + D",
+      "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Decisão espacial",
+      "Perfil do Usuário": "Especialista",
+      "Ambiente": "Remoto",
+      "Fase do SDLC": "Requisitos",
+      "Objetivo da Avaliação": "Comparação de versões",
+      "Recursos Disponíveis": "Alto"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "B + D",
+      "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Decisão espacial",
+      "Perfil do Usuário": "Especialista",
+      "Ambiente": "Móvel",
+      "Fase do SDLC": "Requisitos",
+      "Objetivo da Avaliação": "Medição de desempenho",
+      "Recursos Disponíveis": "Médio"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "C + D",
+      "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Exploratória",
+      "Perfil do Usuário": "Especialista",
+      "Ambiente": "Móvel",
+      "Fase do SDLC": "Requisitos",
+      "Objetivo da Avaliação": "Medição de desempenho",
+      "Recursos Disponíveis": "Baixo"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "C + D",
+      "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Decisão espacial",
+      "Perfil do Usuário": "Misto",
+      "Ambiente": "Móvel",
+      "Fase do SDLC": "Operação",
+      "Objetivo da Avaliação": "Comparação de versões",
+      "Recursos Disponíveis": "Médio"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "B + D",
+      "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Coleta de dados",
+      "Perfil do Usuário": "Misto",
+      "Ambiente": "Remoto",
+      "Fase do SDLC": "Operação",
+      "Objetivo da Avaliação": "Detecção de problemas",
+      "Recursos Disponíveis": "Baixo"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "D",
+      "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Participativa",
+      "Perfil do Usuário": "Misto",
+      "Ambiente": "Campo",
+      "Fase do SDLC": "Implementação",
+      "Objetivo da Avaliação": "Comparação de versões",
+      "Recursos Disponíveis": "Baixo"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "D",
+      "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Decisão espacial",
+      "Perfil do Usuário": "Especialista",
+      "Ambiente": "Remoto",
+      "Fase do SDLC": "Operação",
+      "Objetivo da Avaliação": "Medição de desempenho",
+      "Recursos Disponíveis": "Baixo"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "C + D",
+      "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Exploratória",
+      "Perfil do Usuário": "Especialista",
+      "Ambiente": "Remoto",
+      "Fase do SDLC": "Operação",
+      "Objetivo da Avaliação": "Comparação de versões",
+      "Recursos Disponíveis": "Médio"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "B + D",
+      "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Exploratória",
+      "Perfil do Usuário": "Misto",
+      "Ambiente": "Remoto",
+      "Fase do SDLC": "Operação",
+      "Objetivo da Avaliação": "Validação de requisitos",
+      "Recursos Disponíveis": "Baixo"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "D",
+      "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Navegação",
+      "Perfil do Usuário": "Misto",
+      "Ambiente": "Laboratório",
+      "Fase do SDLC": "Requisitos",
+      "Objetivo da Avaliação": "Validação de requisitos",
+      "Recursos Disponíveis": "Alto"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "B + D",
+      "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Navegação",
+      "Perfil do Usuário": "Leigo",
+      "Ambiente": "Laboratório",
+      "Fase do SDLC": "Requisitos",
+      "Objetivo da Avaliação": "Medição de desempenho",
+      "Recursos Disponíveis": "Baixo"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "C + D",
+      "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Navegação",
+      "Perfil do Usuário": "Misto",
+      "Ambiente": "Remoto",
+      "Fase do SDLC": "Requisitos",
+      "Objetivo da Avaliação": "Validação de requisitos",
+      "Recursos Disponíveis": "Médio"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "B + D",
+      "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Exploratória",
+      "Perfil do Usuário": "Misto",
+      "Ambiente": "Móvel",
+      "Fase do SDLC": "Prototipação",
+      "Objetivo da Avaliação": "Medição de desempenho",
+      "Recursos Disponíveis": "Alto"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "C + D",
+      "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Navegação",
+      "Perfil do Usuário": "Misto",
+      "Ambiente": "Campo",
+      "Fase do SDLC": "Implementação",
+      "Objetivo da Avaliação": "Comparação de versões",
+      "Recursos Disponíveis": "Baixo"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "D",
+      "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Decisão espacial",
+      "Perfil do Usuário": "Misto",
+      "Ambiente": "Móvel",
+      "Fase do SDLC": "Requisitos",
+      "Objetivo da Avaliação": "Comparação de versões",
+      "Recursos Disponíveis": "Alto"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "B + D",
+      "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Decisão espacial",
+      "Perfil do Usuário": "Misto",
+      "Ambiente": "Campo",
+      "Fase do SDLC": "Operação",
+      "Objetivo da Avaliação": "Medição de desempenho",
+      "Recursos Disponíveis": "Baixo"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "C + D",
+      "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Decisão espacial",
+      "Perfil do Usuário": "Especialista",
+      "Ambiente": "Remoto",
+      "Fase do SDLC": "Prototipação",
+      "Objetivo da Avaliação": "Medição de desempenho",
+      "Recursos Disponíveis": "Médio"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "C + D",
+      "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Exploratória",
+      "Perfil do Usuário": "Especialista",
+      "Ambiente": "Campo",
+      "Fase do SDLC": "Prototipação",
+      "Objetivo da Avaliação": "Medição de desempenho",
+      "Recursos Disponíveis": "Médio"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "C + D",
+      "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Exploratória",
+      "Perfil do Usuário": "Misto",
+      "Ambiente": "Laboratório",
+      "Fase do SDLC": "Requisitos",
+      "Objetivo da Avaliação": "Validação de requisitos",
+      "Recursos Disponíveis": "Médio"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "B + D",
+      "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Decisão espacial",
+      "Perfil do Usuário": "Especialista",
+      "Ambiente": "Remoto",
+      "Fase do SDLC": "Operação",
+      "Objetivo da Avaliação": "Validação de requisitos",
+      "Recursos Disponíveis": "Alto"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "B + D",
+      "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Coleta de dados",
+      "Perfil do Usuário": "Especialista",
+      "Ambiente": "Móvel",
+      "Fase do SDLC": "Operação",
+      "Objetivo da Avaliação": "Detecção de problemas",
+      "Recursos Disponíveis": "Baixo"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "D",
+      "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Exploratória",
+      "Perfil do Usuário": "Leigo",
+      "Ambiente": "Laboratório",
+      "Fase do SDLC": "Operação",
+      "Objetivo da Avaliação": "Medição de desempenho",
+      "Recursos Disponíveis": "Baixo"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "C + D",
+      "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Navegação",
+      "Perfil do Usuário": "Especialista",
+      "Ambiente": "Campo",
+      "Fase do SDLC": "Implementação",
+      "Objetivo da Avaliação": "Detecção de problemas",
+      "Recursos Disponíveis": "Baixo"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "D",
+      "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Navegação",
+      "Perfil do Usuário": "Misto",
+      "Ambiente": "Laboratório",
+      "Fase do SDLC": "Prototipação",
+      "Objetivo da Avaliação": "Medição de desempenho",
+      "Recursos Disponíveis": "Alto"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "C + D",
+      "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Coleta de dados",
+      "Perfil do Usuário": "Leigo",
+      "Ambiente": "Campo",
+      "Fase do SDLC": "Implementação",
+      "Objetivo da Avaliação": "Medição de desempenho",
+      "Recursos Disponíveis": "Alto"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "B",
+      "Justificativa": "Usuários leigos em campo/móvel exigem métodos qualitativos diretos e observacionais."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Navegação",
+      "Perfil do Usuário": "Misto",
+      "Ambiente": "Móvel",
+      "Fase do SDLC": "Requisitos",
+      "Objetivo da Avaliação": "Medição de desempenho",
+      "Recursos Disponíveis": "Baixo"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "C + D",
+      "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Participativa",
+      "Perfil do Usuário": "Misto",
+      "Ambiente": "Campo",
+      "Fase do SDLC": "Prototipação",
+      "Objetivo da Avaliação": "Validação de requisitos",
+      "Recursos Disponíveis": "Baixo"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "D",
+      "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Exploratória",
+      "Perfil do Usuário": "Especialista",
+      "Ambiente": "Remoto",
+      "Fase do SDLC": "Operação",
+      "Objetivo da Avaliação": "Validação de requisitos",
+      "Recursos Disponíveis": "Alto"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "B + D",
+      "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Coleta de dados",
+      "Perfil do Usuário": "Especialista",
+      "Ambiente": "Remoto",
+      "Fase do SDLC": "Requisitos",
+      "Objetivo da Avaliação": "Medição de desempenho",
+      "Recursos Disponíveis": "Médio"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "C + D",
+      "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Participativa",
+      "Perfil do Usuário": "Especialista",
+      "Ambiente": "Móvel",
+      "Fase do SDLC": "Requisitos",
+      "Objetivo da Avaliação": "Comparação de versões",
+      "Recursos Disponíveis": "Baixo"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "D",
+      "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Exploratória",
+      "Perfil do Usuário": "Especialista",
+      "Ambiente": "Laboratório",
+      "Fase do SDLC": "Requisitos",
+      "Objetivo da Avaliação": "Detecção de problemas",
+      "Recursos Disponíveis": "Baixo"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "A + C + D",
+      "Justificativa": "Ambiente controlado com especialistas permite uso de heurísticas, métodos instrumentais e escalas padronizadas."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Participativa",
+      "Perfil do Usuário": "Especialista",
+      "Ambiente": "Remoto",
+      "Fase do SDLC": "Implementação",
+      "Objetivo da Avaliação": "Medição de desempenho",
+      "Recursos Disponíveis": "Médio"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "C + D",
+      "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Navegação",
+      "Perfil do Usuário": "Leigo",
+      "Ambiente": "Móvel",
+      "Fase do SDLC": "Requisitos",
+      "Objetivo da Avaliação": "Validação de requisitos",
+      "Recursos Disponíveis": "Médio"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "B",
+      "Justificativa": "Usuários leigos em campo/móvel exigem métodos qualitativos diretos e observacionais."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Navegação",
+      "Perfil do Usuário": "Especialista",
+      "Ambiente": "Campo",
+      "Fase do SDLC": "Requisitos",
+      "Objetivo da Avaliação": "Detecção de problemas",
+      "Recursos Disponíveis": "Médio"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "B + D",
+      "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
+    }
+  },
+  {
+    "se": {
+      "Tipo de Tarefa": "Exploratória",
+      "Perfil do Usuário": "Misto",
+      "Ambiente": "Laboratório",
+      "Fase do SDLC": "Requisitos",
+      "Objetivo da Avaliação": "Comparação de versões",
+      "Recursos Disponíveis": "Médio"
+    },
+    "entao": {
+      "Método(s) Recomendado(s)": "B + D",
+      "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
+    }
+  }
+]
