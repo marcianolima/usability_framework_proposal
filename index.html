@@ -21,6 +21,7 @@
           <option value="5">Participativa</option>
         </select>
       </div>
+
       <div class="col-md-6">
         <label class="form-label">Perfil do Usuário</label>
         <select class="form-select" name="Perfil do Usuário">
@@ -30,6 +31,7 @@
           <option value="3">Misto</option>
         </select>
       </div>
+
       <div class="col-md-6">
         <label class="form-label">Ambiente da Avaliação</label>
         <select class="form-select" name="Ambiente">
@@ -40,6 +42,7 @@
           <option value="4">Móvel</option>
         </select>
       </div>
+
       <div class="col-md-6">
         <label class="form-label">Fase do SDLC</label>
         <select class="form-select" name="Fase do SDLC">
@@ -50,6 +53,7 @@
           <option value="4">Operação</option>
         </select>
       </div>
+
       <div class="col-md-6">
         <label class="form-label">Objetivo da Avaliação</label>
         <select class="form-select" name="Objetivo da Avaliação">
@@ -60,6 +64,7 @@
           <option value="4">Medição de desempenho</option>
         </select>
       </div>
+
       <div class="col-md-6">
         <label class="form-label">Recursos Disponíveis</label>
         <select class="form-select" name="Recursos Disponíveis">
@@ -69,9 +74,10 @@
           <option value="3">Alto</option>
         </select>
       </div>
-      <div class="col-12">
+
+      <div class="col-12 d-flex align-items-center">
         <button type="submit" class="btn btn-primary" id="submitBtn" disabled>Obter Recomendação</button>
-        <button type="reset" class="btn btn-secondary ms-2" id="limparBtn">Limpar</button>
+        <button type="button" class="btn btn-secondary ms-2" id="limparBtn">Limpar</button>
       </div>
     </form>
 
@@ -80,22 +86,29 @@
       <p id="metodos" class="fw-bold"></p>
       <h5>Justificativa</h5>
       <p id="justificativa"></p>
+      <h5>Métodos Representativos (da amostra)</h5>
+      <ul id="metodosRep" class="mb-0"></ul>
     </div>
   </div>
 
   <script>
     let dados = [];
     fetch("Regras_Framework_WebGIS_codificado.json")
-      .then(res => res.json())
-      .then(json => dados = json);
+      .then(res => {
+        if (!res.ok) throw new Error("Falha ao carregar regras");
+        return res.json();
+      })
+      .then(json => dados = json)
+      .catch(err => {
+        console.error(err);
+        alert("Não foi possível carregar as regras. Verifique o arquivo JSON.");
+      });
 
+    // Distância de Hamming ponderada (melhor para variáveis categóricas)
     function distancia(a, b) {
-      return Object.keys(a).reduce((acc, key) => {
-        if (key !== "Método(s) Recomendado(s)" && key !== "Justificativa") {
-          acc += Math.abs(a[key] - b[key]);
-        }
-        return acc;
-      }, 0);
+      const keys = ["Tipo de Tarefa","Perfil do Usuário","Ambiente","Fase do SDLC","Objetivo da Avaliação","Recursos Disponíveis"];
+      const W = {"Tipo de Tarefa":2,"Perfil do Usuário":1,"Ambiente":1,"Fase do SDLC":1,"Objetivo da Avaliação":2,"Recursos Disponíveis":1};
+      return keys.reduce((acc, k) => acc + (a[k] === b[k] ? 0 : W[k]), 0);
     }
 
     document.getElementById("formulario").addEventListener("submit", function(event) {
@@ -114,7 +127,8 @@
         return {
           distancia: distancia(entradaNum, item),
           metodo: item["Método(s) Recomendado(s)"],
-          justificativa: item["Justificativa"]
+          justificativa: item["Justificativa"],
+          metodosRep: item["Métodos Representativos (da amostra)"] || []
         };
       }).sort((a, b) => a.distancia - b.distancia).slice(0, 5);
 
@@ -128,43 +142,46 @@
 
       document.getElementById("metodos").textContent = metodoFinal;
       document.getElementById("justificativa").textContent = justificativaFinal;
+      // Renderiza lista de métodos representativos
+      const lista = document.getElementById("metodosRep");
+      lista.innerHTML = "";
+      const metodosEscolhidos = (vizinhos.find(v => v.metodo === metodoFinal)?.metodosRep) || [];
+      metodosEscolhidos.forEach(m => {
+        const li = document.createElement("li"); li.textContent = m; lista.appendChild(li);
+      });
       document.getElementById("resultado").style.display = "block";
     });
 
+    // Habilitar/Desabilitar botão conforme seleção
+    function verificarSelecoes() {
+      const selects = document.querySelectorAll('#formulario select');
+      const botao = document.getElementById('submitBtn');
+      let tudoSelecionado = true;
+      selects.forEach(select => {
+        if (select.selectedIndex === 0 || select.value === "" || select.disabled) {
+          tudoSelecionado = false;
+        }
+      });
+      botao.disabled = !tudoSelecionado;
+    }
+
+    // Aplica verificação a todos os selects
+    document.querySelectorAll('#formulario select').forEach(select => {
+      select.addEventListener('change', verificarSelecoes);
+    });
+
+    // Desativa botão inicialmente
+    document.addEventListener('DOMContentLoaded', function() {
+      verificarSelecoes();
+    });
+
+    // Botão limpar reseta também o botão submit e a lista de métodos
     document.getElementById("limparBtn").addEventListener("click", function() {
       document.getElementById("resultado").style.display = "none";
+      document.getElementById("metodosRep").innerHTML = "";
+      verificarSelecoes();
     });
   </script>
-  <script>
-  // Função para verificar se todas as opções estão selecionadas
-  function verificarSelecoes() {
-    const selects = document.querySelectorAll('#formulario select');
-    const botao = document.getElementById('submitBtn');
-    let tudoSelecionado = true;
-    selects.forEach(select => {
-      if (select.selectedIndex === 0 || select.value === "" || select.disabled) {
-        tudoSelecionado = false;
-      }
-    });
-    botao.disabled = !tudoSelecionado;
-  }
-
-  // Aplica verificação a todos os selects
-  document.querySelectorAll('#formulario select').forEach(select => {
-    select.addEventListener('change', verificarSelecoes);
-  });
-
-  // Desativa botão inicialmente
-  document.addEventListener('DOMContentLoaded', function() {
-    verificarSelecoes();
-  });
-
-  // Botão limpar reseta também o botão submit
-  document.getElementById("limparBtn").addEventListener("click", function() {
-    document.getElementById("resultado").style.display = "none";
-    verificarSelecoes();
-  });
-</script>
 
 </body>
 </html>
