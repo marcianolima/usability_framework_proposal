@@ -1,412 +1,322 @@
 [
-  {
-    "Tipo de Tarefa": 2,
-    "Perfil do Usuário": 3,
-    "Ambiente": 3,
-    "Fase do SDLC": 4,
-    "Objetivo da Avaliação": 4,
-    "Recursos Disponíveis": 3,
-    "Método(s) Recomendado(s)": "C + D",
-    "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-  },
-  {
-  "Tipo de Tarefa": 1,
-  "Perfil do Usuário": 2,
-  "Ambiente": 2,
-  "Fase do SDLC": 3,
-  "Objetivo da Avaliação": 1,
-  "Recursos Disponíveis": 1,
-  "Método(s) Recomendado(s)": "C + D",
-  "Justificativa": "Registro de interações em campo (data logging) para análise do comportamento de navegação por especialistas, complementado por avaliações heurísticas para detecção eficiente de problemas, viável com baixo recurso."
-  },
-  {
-    "Tipo de Tarefa": 1,
-    "Perfil do Usuário": 1,
-    "Ambiente": 1,
-    "Fase do SDLC": 3,
-    "Objetivo da Avaliação": 4,
-    "Recursos Disponíveis": 2,
-    "Método(s) Recomendado(s)": "C + D",
-    "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-  },
-  {
-    "Tipo de Tarefa": 1,
-    "Perfil do Usuário": 3,
-    "Ambiente": 4,
-    "Fase do SDLC": 4,
-    "Objetivo da Avaliação": 3,
-    "Recursos Disponíveis": 3,
-    "Método(s) Recomendado(s)": "B + D",
-    "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
-  },
-  {
-    "Tipo de Tarefa": 2,
-    "Perfil do Usuário": 1,
-    "Ambiente": 3,
-    "Fase do SDLC": 4,
-    "Objetivo da Avaliação": 2,
-    "Recursos Disponíveis": 3,
-    "Método(s) Recomendado(s)": "C + D",
-    "Justificativa": "Medição objetiva de desempenho e percepção subjetiva para comparação robusta entre versões."
-  },
-  {
-    "Tipo de Tarefa": 4,
-    "Perfil do Usuário": 1,
-    "Ambiente": 2,
-    "Fase do SDLC": 3,
-    "Objetivo da Avaliação": 1,
-    "Recursos Disponíveis": 1,
-    "Método(s) Recomendado(s)": "B",
-    "Justificativa": "Usuários leigos em campo/móvel exigem métodos qualitativos diretos e observacionais."
-  },
-  {
-    "Tipo de Tarefa": 1,
-    "Perfil do Usuário": 1,
-    "Ambiente": 2,
-    "Fase do SDLC": 3,
-    "Objetivo da Avaliação": 4,
-    "Recursos Disponíveis": 1,
-    "Método(s) Recomendado(s)": "B + D",
-    "Justificativa": "Combinação de observação qualitativa e medição quantitativa para desempenho com usuários leigos em ambiente móvel."
-  },
-  {
-    "Tipo de Tarefa": 1,
-    "Perfil do Usuário": 2,
-    "Ambiente": 3,
-    "Fase do SDLC": 4,
-    "Objetivo da Avaliação": 4,
-    "Recursos Disponíveis": 1,
-    "Método(s) Recomendado(s)": "A + D",
-    "Justificativa": "Entrevistas com especialistas e questionários viáveis com recursos limitados para desempenho e percepção."
-  },
-  {
-    "Tipo de Tarefa": 3,
-    "Perfil do Usuário": 1,
-    "Ambiente": 3,
-    "Fase do SDLC": 3,
-    "Objetivo da Avaliação": 3,
-    "Recursos Disponíveis": 1,
-    "Método(s) Recomendado(s)": "D",
-    "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
-  },
-  {
-    "Tipo de Tarefa": 1,
-    "Perfil do Usuário": 2,
-    "Ambiente": 2,
-    "Fase do SDLC": 4,
-    "Objetivo da Avaliação": 1,
-    "Recursos Disponíveis": 1,
-    "Método(s) Recomendado(s)": "D",
-    "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
-  },
-  {
-    "Tipo de Tarefa": 3,
-    "Perfil do Usuário": 2,
-    "Ambiente": 1,
-    "Fase do SDLC": 2,
-    "Objetivo da Avaliação": 2,
-    "Recursos Disponíveis": 3,
-    "Método(s) Recomendado(s)": "A + C + D",
-    "Justificativa": "Ambiente controlado com especialistas permite uso de heurísticas, métodos instrumentais e escalas padronizadas."
-  },
-  {
-    "Tipo de Tarefa": 2,
-    "Perfil do Usuário": 1,
-    "Ambiente": 4,
-    "Fase do SDLC": 1,
-    "Objetivo da Avaliação": 1,
-    "Recursos Disponíveis": 2,
-    "Método(s) Recomendado(s)": "B",
-    "Justificativa": "Usuários leigos em campo/móvel exigem métodos qualitativos diretos e observacionais."
-  },
-  {
-    "Tipo de Tarefa": 2,
-    "Perfil do Usuário": 1,
-    "Ambiente": 2,
-    "Fase do SDLC": 4,
-    "Objetivo da Avaliação": 4,
-    "Recursos Disponíveis": 1,
-    "Método(s) Recomendado(s)": "B",
-    "Justificativa": "Usuários leigos em campo/móvel exigem métodos qualitativos diretos e observacionais."
-  },
-  {
-    "Tipo de Tarefa": 1,
-    "Perfil do Usuário": 2,
-    "Ambiente": 1,
-    "Fase do SDLC": 3,
-    "Objetivo da Avaliação": 1,
-    "Recursos Disponíveis": 2,
-    "Método(s) Recomendado(s)": "A + C + D",
-    "Justificativa": "Ambiente controlado com especialistas permite uso de heurísticas, métodos instrumentais e escalas padronizadas."
-  },
-  {
-    "Tipo de Tarefa": 1,
-    "Perfil do Usuário": 3,
-    "Ambiente": 2,
-    "Fase do SDLC": 1,
-    "Objetivo da Avaliação": 4,
-    "Recursos Disponíveis": 1,
-    "Método(s) Recomendado(s)": "A + D",
-    "Justificativa": "Entrevistas com usuários mistos e questionários viáveis com recursos limitados para desempenho."
-  },
-  {
-    "Tipo de Tarefa": 5,
-    "Perfil do Usuário": 2,
-    "Ambiente": 2,
-    "Fase do SDLC": 4,
-    "Objetivo da Avaliação": 4,
-    "Recursos Disponíveis": 2,
-    "Método(s) Recomendado(s)": "C + D",
-    "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-  },
-  {
-    "Tipo de Tarefa": 4,
-    "Perfil do Usuário": 1,
-    "Ambiente": 1,
-    "Fase do SDLC": 1,
-    "Objetivo da Avaliação": 4,
-    "Recursos Disponíveis": 2,
-    "Método(s) Recomendado(s)": "C + D",
-    "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-  },
-  {
-    "Tipo de Tarefa": 3,
-    "Perfil do Usuário": 2,
-    "Ambiente": 4,
-    "Fase do SDLC": 3,
-    "Objetivo da Avaliação": 3,
-    "Recursos Disponíveis": 3,
-    "Método(s) Recomendado(s)": "B + D",
-    "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
-  },
-  {
-    "Tipo de Tarefa": 1,
-    "Perfil do Usuário": 2,
-    "Ambiente": 4,
-    "Fase do SDLC": 2,
-    "Objetivo da Avaliação": 1,
-    "Recursos Disponíveis": 2,
-    "Método(s) Recomendado(s)": "B + D",
-    "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
-  },
-  {
-    "Tipo de Tarefa": 5,
-    "Perfil do Usuário": 3,
-    "Ambiente": 1,
-    "Fase do SDLC": 3,
-    "Objetivo da Avaliação": 4,
-    "Recursos Disponíveis": 3,
-    "Método(s) Recomendado(s)": "C + D",
-    "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-  },
-  {
-    "Tipo de Tarefa": 4,
-    "Perfil do Usuário": 1,
-    "Ambiente": 3,
-    "Fase do SDLC": 2,
-    "Objetivo da Avaliação": 1,
-    "Recursos Disponíveis": 2,
-    "Método(s) Recomendado(s)": "B + D",
-    "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
-  },
-  {
-    "Tipo de Tarefa": 4,
-    "Perfil do Usuário": 2,
-    "Ambiente": 2,
-    "Fase do SDLC": 3,
-    "Objetivo da Avaliação": 4,
-    "Recursos Disponíveis": 3,
-    "Método(s) Recomendado(s)": "C + D",
-    "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-  },
-  {
-    "Tipo de Tarefa": 5,
-    "Perfil do Usuário": 3,
-    "Ambiente": 4,
-    "Fase do SDLC": 3,
-    "Objetivo da Avaliação": 3,
-    "Recursos Disponíveis": 1,
-    "Método(s) Recomendado(s)": "D",
-    "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
-  },
-  {
-    "Tipo de Tarefa": 5,
-    "Perfil do Usuário": 2,
-    "Ambiente": 4,
-    "Fase do SDLC": 3,
-    "Objetivo da Avaliação": 2,
-    "Recursos Disponíveis": 2,
-    "Método(s) Recomendado(s)": "B + D",
-    "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
-  },
-  {
-    "Tipo de Tarefa": 4,
-    "Perfil do Usuário": 3,
-    "Ambiente": 2,
-    "Fase do SDLC": 4,
-    "Objetivo da Avaliação": 2,
-    "Recursos Disponíveis": 2,
-    "Método(s) Recomendado(s)": "B + D",
-    "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
-  },
-  {
-    "Tipo de Tarefa": 1,
-    "Perfil do Usuário": 1,
-    "Ambiente": 2,
-    "Fase do SDLC": 2,
-    "Objetivo da Avaliação": 2,
-    "Recursos Disponíveis": 3,
-    "Método(s) Recomendado(s)": "B",
-    "Justificativa": "Usuários leigos em campo/móvel exigem métodos qualitativos diretos e observacionais."
-  },
-  {
-    "Tipo de Tarefa": 3,
-    "Perfil do Usuário": 2,
-    "Ambiente": 1,
-    "Fase do SDLC": 4,
-    "Objetivo da Avaliação": 4,
-    "Recursos Disponíveis": 2,
-    "Método(s) Recomendado(s)": "A + C + D",
-    "Justificativa": "Ambiente controlado com especialistas permite uso de heurísticas, métodos instrumentais e escalas padronizadas."
-  },
-  {
-    "Tipo de Tarefa": 4,
-    "Perfil do Usuário": 2,
-    "Ambiente": 1,
-    "Fase do SDLC": 3,
-    "Objetivo da Avaliação": 4,
-    "Recursos Disponíveis": 2,
-    "Método(s) Recomendado(s)": "A + C + D",
-    "Justificativa": "Ambiente controlado com especialistas permite uso de heurísticas, métodos instrumentais e escalas padronizadas."
-  },
-  {
-    "Tipo de Tarefa": 3,
-    "Perfil do Usuário": 3,
-    "Ambiente": 4,
-    "Fase do SDLC": 1,
-    "Objetivo da Avaliação": 1,
-    "Recursos Disponíveis": 1,
-    "Método(s) Recomendado(s)": "D",
-    "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
-  },
-  {
-    "Tipo de Tarefa": 3,
-    "Perfil do Usuário": 3,
-    "Ambiente": 2,
-    "Fase do SDLC": 2,
-    "Objetivo da Avaliação": 4,
-    "Recursos Disponíveis": 3,
-    "Método(s) Recomendado(s)": "C + D",
-    "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-  },
-  {
-    "Tipo de Tarefa": 2,
-    "Perfil do Usuário": 3,
-    "Ambiente": 2,
-    "Fase do SDLC": 3,
-    "Objetivo da Avaliação": 2,
-    "Recursos Disponíveis": 2,
-    "Método(s) Recomendado(s)": "B + D",
-    "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
-  },
-  {
-    "Tipo de Tarefa": 2,
-    "Perfil do Usuário": 1,
-    "Ambiente": 1,
-    "Fase do SDLC": 1,
-    "Objetivo da Avaliação": 4,
-    "Recursos Disponíveis": 2,
-    "Método(s) Recomendado(s)": "C + D",
-    "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-  },
-  {
-    "Tipo de Tarefa": 1,
-    "Perfil do Usuário": 2,
-    "Ambiente": 3,
-    "Fase do SDLC": 1,
-    "Objetivo da Avaliação": 3,
-    "Recursos Disponíveis": 2,
-    "Método(s) Recomendado(s)": "B + D",
-    "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
-  },
-  {
-    "Tipo de Tarefa": 2,
-    "Perfil do Usuário": 1,
-    "Ambiente": 4,
-    "Fase do SDLC": 2,
-    "Objetivo da Avaliação": 3,
-    "Recursos Disponíveis": 2,
-    "Método(s) Recomendado(s)": "B",
-    "Justificativa": "Usuários leigos em campo/móvel exigem métodos qualitativos diretos e observacionais."
-  },
-  {
-    "Tipo de Tarefa": 5,
-    "Perfil do Usuário": 1,
-    "Ambiente": 4,
-    "Fase do SDLC": 2,
-    "Objetivo da Avaliação": 3,
-    "Recursos Disponíveis": 3,
-    "Método(s) Recomendado(s)": "B",
-    "Justificativa": "Usuários leigos em campo/móvel exigem métodos qualitativos diretos e observacionais."
-  },
-  {
-    "Tipo de Tarefa": 4,
-    "Perfil do Usuário": 3,
-    "Ambiente": 4,
-    "Fase do SDLC": 4,
-    "Objetivo da Avaliação": 4,
-    "Recursos Disponíveis": 2,
-    "Método(s) Recomendado(s)": "C + D",
-    "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-  },
-  {
-    "Tipo de Tarefa": 3,
-    "Perfil do Usuário": 2,
-    "Ambiente": 4,
-    "Fase do SDLC": 3,
-    "Objetivo da Avaliação": 1,
-    "Recursos Disponíveis": 1,
-    "Método(s) Recomendado(s)": "D",
-    "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
-  },
-  {
-    "Tipo de Tarefa": 4,
-    "Perfil do Usuário": 1,
-    "Ambiente": 3,
-    "Fase do SDLC": 1,
-    "Objetivo da Avaliação": 4,
-    "Recursos Disponíveis": 1,
-    "Método(s) Recomendado(s)": "C + D",
-    "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-  },
-  {
-    "Tipo de Tarefa": 1,
-    "Perfil do Usuário": 2,
-    "Ambiente": 4,
-    "Fase do SDLC": 2,
-    "Objetivo da Avaliação": 3,
-    "Recursos Disponíveis": 3,
-    "Método(s) Recomendado(s)": "B + D",
-    "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
-  },
-  {
-    "Tipo de Tarefa": 4,
-    "Perfil do Usuário": 2,
-    "Ambiente": 4,
-    "Fase do SDLC": 2,
-    "Objetivo da Avaliação": 4,
-    "Recursos Disponíveis": 2,
-    "Método(s) Recomendado(s)": "C + D",
-    "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-  },
-  {
-    "Tipo de Tarefa": 3,
-    "Perfil do Usuário": 2,
-    "Ambiente": 3,
-    "Fase do SDLC": 2,
-    "Objetivo da Avaliação": 3,
-    "Recursos Disponíveis": 2,
-    "Método(s) Recomendado(s)": "B + D",
-    "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
-  }
-]
+      {
+        "Tipo de Tarefa": 1,
+        "Perfil do Usuário": 2,
+        "Ambiente": 2,
+        "Fase do SDLC": 3,
+        "Objetivo da Avaliação": 1,
+        "Recursos Disponíveis": 1,
+        "Método(s) Recomendado(s)": "C+D",
+        "Justificativa": "Registro de interações em campo (data logging) para análise do comportamento de navegação por especialistas, complementado por avaliações heurísticas para detecção eficiente de problemas, viável com baixo recurso."
+      },
+      {
+        "Tipo de Tarefa": 2,
+        "Perfil do Usuário": 3,
+        "Ambiente": 3,
+        "Fase do SDLC": 4,
+        "Objetivo da Avaliação": 4,
+        "Recursos Disponíveis": 3,
+        "Método(s) Recomendado(s)": "C+D",
+        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+      },
+      {
+        "Tipo de Tarefa": 1,
+        "Perfil do Usuário": 1,
+        "Ambiente": 1,
+        "Fase do SDLC": 3,
+        "Objetivo da Avaliação": 4,
+        "Recursos Disponíveis": 2,
+        "Método(s) Recomendado(s)": "C+D",
+        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+      },
+      {
+        "Tipo de Tarefa": 1,
+        "Perfil do Usuário": 2,
+        "Ambiente": 3,
+        "Fase do SDLC": 2,
+        "Objetivo da Avaliação": 3,
+        "Recursos Disponíveis": 2,
+        "Método(s) Recomendado(s)": "B+D",
+        "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
+      },
+      {
+        "Tipo de Tarefa": 2,
+        "Perfil do Usuário": 1,
+        "Ambiente": 3,
+        "Fase do SDLC": 2,
+        "Objetivo da Avaliação": 2,
+        "Recursos Disponíveis": 2,
+        "Método(s) Recomendado(s)": "B",
+        "Justificativa": "Usuários leigos em campo/móvel exigem métodos qualitativos diretos e observacionais."
+      },
+      {
+        "Tipo de Tarefa": 4,
+        "Perfil do Usuário": 1,
+        "Ambiente": 2,
+        "Fase do SDLC": 3,
+        "Objetivo da Avaliação": 4,
+        "Recursos Disponíveis": 3,
+        "Método(s) Recomendado(s)": "C+D",
+        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+      },
+      {
+        "Tipo de Tarefa": 4,
+        "Perfil do Usuário": 2,
+        "Ambiente": 2,
+        "Fase do SDLC": 3,
+        "Objetivo da Avaliação": 4,
+        "Recursos Disponíveis": 3,
+        "Método(s) Recomendado(s)": "C+D",
+        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+      },
+      {
+        "Tipo de Tarefa": 1,
+        "Perfil do Usuário": 2,
+        "Ambiente": 4,
+        "Fase do SDLC": 2,
+        "Objetivo da Avaliação": 3,
+        "Recursos Disponíveis": 2,
+        "Método(s) Recomendado(s)": "B+D",
+        "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
+      },
+      {
+        "Tipo de Tarefa": 3,
+        "Perfil do Usuário": 2,
+        "Ambiente": 1,
+        "Fase do SDLC": 1,
+        "Objetivo da Avaliação": 2,
+        "Recursos Disponíveis": 3,
+        "Método(s) Recomendado(s)": "A+C+D",
+        "Justificativa": "Ambiente controlado com especialistas permite uso de heurísticas, métodos instrumentais e escalas padronizadas."
+      },
+      {
+        "Tipo de Tarefa": 3,
+        "Perfil do Usuário": 3,
+        "Ambiente": 4,
+        "Fase do SDLC": 1,
+        "Objetivo da Avaliação": 1,
+        "Recursos Disponíveis": 1,
+        "Método(s) Recomendado(s)": "D",
+        "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
+      },
+      {
+        "Tipo de Tarefa": 2,
+        "Perfil do Usuário": 2,
+        "Ambiente": 3,
+        "Fase do SDLC": 3,
+        "Objetivo da Avaliação": 2,
+        "Recursos Disponíveis": 2,
+        "Método(s) Recomendado(s)": "B+D",
+        "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
+      },
+      {
+        "Tipo de Tarefa": 5,
+        "Perfil do Usuário": 2,
+        "Ambiente": 2,
+        "Fase do SDLC": 4,
+        "Objetivo da Avaliação": 4,
+        "Recursos Disponíveis": 2,
+        "Método(s) Recomendado(s)": "C+D",
+        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+      },
+      {
+        "Tipo de Tarefa": 3,
+        "Perfil do Usuário": 2,
+        "Ambiente": 1,
+        "Fase do SDLC": 4,
+        "Objetivo da Avaliação": 4,
+        "Recursos Disponíveis": 2,
+        "Método(s) Recomendado(s)": "A+C+D",
+        "Justificativa": "Ambiente controlado com especialistas permite uso de heurísticas, métodos instrumentais e escalas padronizadas."
+      },
+      {
+        "Tipo de Tarefa": 4,
+        "Perfil do Usuário": 1,
+        "Ambiente": 1,
+        "Fase do SDLC": 1,
+        "Objetivo da Avaliação": 4,
+        "Recursos Disponíveis": 2,
+        "Método(s) Recomendado(s)": "C+D",
+        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+      },
+      {
+        "Tipo de Tarefa": 1,
+        "Perfil do Usuário": 2,
+        "Ambiente": 4,
+        "Fase do SDLC": 2,
+        "Objetivo da Avaliação": 3,
+        "Recursos Disponíveis": 3,
+        "Método(s) Recomendado(s)": "B+D",
+        "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
+      },
+      {
+        "Tipo de Tarefa": 1,
+        "Perfil do Usuário": 3,
+        "Ambiente": 2,
+        "Fase do SDLC": 1,
+        "Objetivo da Avaliação": 4,
+        "Recursos Disponíveis": 1,
+        "Método(s) Recomendado(s)": "A+D",
+        "Justificativa": "Entrevistas com usuários mistos e questionários viáveis com recursos limitados para desempenho."
+      },
+      {
+        "Tipo de Tarefa": 3,
+        "Perfil do Usuário": 1,
+        "Ambiente": 2,
+        "Fase do SDLC": 3,
+        "Objetivo da Avaliação": 3,
+        "Recursos Disponíveis": 1,
+        "Método(s) Recomendado(s)": "D",
+        "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
+      },
+      {
+        "Tipo de Tarefa": 4,
+        "Perfil do Usuário": 3,
+        "Ambiente": 4,
+        "Fase do SDLC": 4,
+        "Objetivo da Avaliação": 4,
+        "Recursos Disponíveis": 2,
+        "Método(s) Recomendado(s)": "C+D",
+        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+      },
+      {
+        "Tipo de Tarefa": 4,
+        "Perfil do Usuário": 2,
+        "Ambiente": 1,
+        "Fase do SDLC": 3,
+        "Objetivo da Avaliação": 4,
+        "Recursos Disponíveis": 2,
+        "Método(s) Recomendado(s)": "A+C+D",
+        "Justificativa": "Ambiente controlado com especialistas permite uso de heurísticas, métodos instrumentais e escalas padronizadas."
+      },
+      {
+        "Tipo de Tarefa": 1,
+        "Perfil do Usuário": 1,
+        "Ambiente": 2,
+        "Fase do SDLC": 2,
+        "Objetivo da Avaliação": 2,
+        "Recursos Disponíveis": 3,
+        "Método(s) Recomendado(s)": "B",
+        "Justificativa": "Usuários leigos em campo/móvel exigem métodos qualitativos diretos e observacionais."
+      },
+      {
+        "Tipo de Tarefa": 3,
+        "Perfil do Usuário": 3,
+        "Ambiente": 2,
+        "Fase do SDLC": 2,
+        "Objetivo da Avaliação": 4,
+        "Recursos Disponíveis": 3,
+        "Método(s) Recomendado(s)": "C+D",
+        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+      },
+      {
+        "Tipo de Tarefa": 5,
+        "Perfil do Usuário": 3,
+        "Ambiente": 1,
+        "Fase do SDLC": 3,
+        "Objetivo da Avaliação": 4,
+        "Recursos Disponíveis": 3,
+        "Método(s) Recomendado(s)": "C+D",
+        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+      },
+      {
+        "Tipo de Tarefa": 4,
+        "Perfil do Usuário": 1,
+        "Ambiente": 3,
+        "Fase do SDLC": 1,
+        "Objetivo da Avaliação": 4,
+        "Recursos Disponíveis": 1,
+        "Método(s) Recomendado(s)": "C+D",
+        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+      },
+      {
+        "Tipo de Tarefa": 4,
+        "Perfil do Usuário": 3,
+        "Ambiente": 4,
+        "Fase do SDLC": 4,
+        "Objetivo da Avaliação": 4,
+        "Recursos Disponíveis": 2,
+        "Método(s) Recomendado(s)": "C+D",
+        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+      },
+      {
+        "Tipo de Tarefa": 3,
+        "Perfil do Usuário": 2,
+        "Ambiente": 4,
+        "Fase do SDLC": 2,
+        "Objetivo da Avaliação": 3,
+        "Recursos Disponíveis": 2,
+        "Método(s) Recomendado(s)": "B+D",
+        "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
+      },
+      {
+        "Tipo de Tarefa": 5,
+        "Perfil do Usuário": 1,
+        "Ambiente": 4,
+        "Fase do SDLC": 2,
+        "Objetivo da Avaliação": 3,
+        "Recursos Disponíveis": 3,
+        "Método(s) Recomendado(s)": "B",
+        "Justificativa": "Usuários leigos em campo/móvel exigem métodos qualitativos diretos e observacionais."
+      },
+      {
+        "Tipo de Tarefa": 1,
+        "Perfil do Usuário": 1,
+        "Ambiente": 2,
+        "Fase do SDLC": 2,
+        "Objetivo da Avaliação": 2,
+        "Recursos Disponíveis": 3,
+        "Método(s) Recomendado(s)": "B",
+        "Justificativa": "Usuários leigos em campo/móvel exigem métodos qualitativos diretos e observacionais."
+      },
+      {
+        "Tipo de Tarefa": 2,
+        "Perfil do Usuário": 1,
+        "Ambiente": 1,
+        "Fase do SDLC": 1,
+        "Objetivo da Avaliação": 4,
+        "Recursos Disponíveis": 2,
+        "Método(s) Recomendado(s)": "C+D",
+        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+      },
+      {
+        "Tipo de Tarefa": 1,
+        "Perfil do Usuário": 2,
+        "Ambiente": 3,
+        "Fase do SDLC": 1,
+        "Objetivo da Avaliação": 3,
+        "Recursos Disponíveis": 2,
+        "Método(s) Recomendado(s)": "B+D",
+        "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
+      },
+      {
+        "Tipo de Tarefa": 5,
+        "Perfil do Usuário": 3,
+        "Ambiente": 4,
+        "Fase do SDLC": 3,
+        "Objetivo da Avaliação": 3,
+        "Recursos Disponíveis": 1,
+        "Método(s) Recomendado(s)": "D",
+        "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
+      },
+      {
+        "Tipo de Tarefa": 5,
+        "Perfil do Usuário": 2,
+        "Ambiente": 4,
+        "Fase do SDLC": 3,
+        "Objetivo da Avaliação": 2,
+        "Recursos Disponíveis": 2,
+        "Método(s) Recomendado(s)": "B+D",
+        "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
+      },
+      {
+        "Tipo de Tarefa": 4,
+        "Perfil do Usuário": 2,
+        "Ambiente": 4,
+        "Fase do SDLC": 2,
+        "Objetivo da Avaliação": 4,
+        "Recursos Disponíveis": 2,
+        "Método(s) Recomendado(s)": "C+D",
+        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
+      }
+    ]
