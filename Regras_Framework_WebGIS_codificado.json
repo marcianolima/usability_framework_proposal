@@ -1,322 +1,770 @@
 [
-      {
-        "Tipo de Tarefa": 1,
-        "Perfil do Usuário": 2,
-        "Ambiente": 2,
-        "Fase do SDLC": 3,
-        "Objetivo da Avaliação": 1,
-        "Recursos Disponíveis": 1,
-        "Método(s) Recomendado(s)": "C+D",
-        "Justificativa": "Registro de interações em campo (data logging) para análise do comportamento de navegação por especialistas, complementado por avaliações heurísticas para detecção eficiente de problemas, viável com baixo recurso."
-      },
-      {
-        "Tipo de Tarefa": 2,
-        "Perfil do Usuário": 3,
-        "Ambiente": 3,
-        "Fase do SDLC": 4,
-        "Objetivo da Avaliação": 4,
-        "Recursos Disponíveis": 3,
-        "Método(s) Recomendado(s)": "C+D",
-        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-      },
-      {
-        "Tipo de Tarefa": 1,
-        "Perfil do Usuário": 1,
-        "Ambiente": 1,
-        "Fase do SDLC": 3,
-        "Objetivo da Avaliação": 4,
-        "Recursos Disponíveis": 2,
-        "Método(s) Recomendado(s)": "C+D",
-        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-      },
-      {
-        "Tipo de Tarefa": 1,
-        "Perfil do Usuário": 2,
-        "Ambiente": 3,
-        "Fase do SDLC": 2,
-        "Objetivo da Avaliação": 3,
-        "Recursos Disponíveis": 2,
-        "Método(s) Recomendado(s)": "B+D",
-        "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
-      },
-      {
-        "Tipo de Tarefa": 2,
-        "Perfil do Usuário": 1,
-        "Ambiente": 3,
-        "Fase do SDLC": 2,
-        "Objetivo da Avaliação": 2,
-        "Recursos Disponíveis": 2,
-        "Método(s) Recomendado(s)": "B",
-        "Justificativa": "Usuários leigos em campo/móvel exigem métodos qualitativos diretos e observacionais."
-      },
-      {
-        "Tipo de Tarefa": 4,
-        "Perfil do Usuário": 1,
-        "Ambiente": 2,
-        "Fase do SDLC": 3,
-        "Objetivo da Avaliação": 4,
-        "Recursos Disponíveis": 3,
-        "Método(s) Recomendado(s)": "C+D",
-        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-      },
-      {
-        "Tipo de Tarefa": 4,
-        "Perfil do Usuário": 2,
-        "Ambiente": 2,
-        "Fase do SDLC": 3,
-        "Objetivo da Avaliação": 4,
-        "Recursos Disponíveis": 3,
-        "Método(s) Recomendado(s)": "C+D",
-        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-      },
-      {
-        "Tipo de Tarefa": 1,
-        "Perfil do Usuário": 2,
-        "Ambiente": 4,
-        "Fase do SDLC": 2,
-        "Objetivo da Avaliação": 3,
-        "Recursos Disponíveis": 2,
-        "Método(s) Recomendado(s)": "B+D",
-        "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
-      },
-      {
-        "Tipo de Tarefa": 3,
-        "Perfil do Usuário": 2,
-        "Ambiente": 1,
-        "Fase do SDLC": 1,
-        "Objetivo da Avaliação": 2,
-        "Recursos Disponíveis": 3,
-        "Método(s) Recomendado(s)": "A+C+D",
-        "Justificativa": "Ambiente controlado com especialistas permite uso de heurísticas, métodos instrumentais e escalas padronizadas."
-      },
-      {
-        "Tipo de Tarefa": 3,
-        "Perfil do Usuário": 3,
-        "Ambiente": 4,
-        "Fase do SDLC": 1,
-        "Objetivo da Avaliação": 1,
-        "Recursos Disponíveis": 1,
-        "Método(s) Recomendado(s)": "D",
-        "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
-      },
-      {
-        "Tipo de Tarefa": 2,
-        "Perfil do Usuário": 2,
-        "Ambiente": 3,
-        "Fase do SDLC": 3,
-        "Objetivo da Avaliação": 2,
-        "Recursos Disponíveis": 2,
-        "Método(s) Recomendado(s)": "B+D",
-        "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
-      },
-      {
-        "Tipo de Tarefa": 5,
-        "Perfil do Usuário": 2,
-        "Ambiente": 2,
-        "Fase do SDLC": 4,
-        "Objetivo da Avaliação": 4,
-        "Recursos Disponíveis": 2,
-        "Método(s) Recomendado(s)": "C+D",
-        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-      },
-      {
-        "Tipo de Tarefa": 3,
-        "Perfil do Usuário": 2,
-        "Ambiente": 1,
-        "Fase do SDLC": 4,
-        "Objetivo da Avaliação": 4,
-        "Recursos Disponíveis": 2,
-        "Método(s) Recomendado(s)": "A+C+D",
-        "Justificativa": "Ambiente controlado com especialistas permite uso de heurísticas, métodos instrumentais e escalas padronizadas."
-      },
-      {
-        "Tipo de Tarefa": 4,
-        "Perfil do Usuário": 1,
-        "Ambiente": 1,
-        "Fase do SDLC": 1,
-        "Objetivo da Avaliação": 4,
-        "Recursos Disponíveis": 2,
-        "Método(s) Recomendado(s)": "C+D",
-        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-      },
-      {
-        "Tipo de Tarefa": 1,
-        "Perfil do Usuário": 2,
-        "Ambiente": 4,
-        "Fase do SDLC": 2,
-        "Objetivo da Avaliação": 3,
-        "Recursos Disponíveis": 3,
-        "Método(s) Recomendado(s)": "B+D",
-        "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
-      },
-      {
-        "Tipo de Tarefa": 1,
-        "Perfil do Usuário": 3,
-        "Ambiente": 2,
-        "Fase do SDLC": 1,
-        "Objetivo da Avaliação": 4,
-        "Recursos Disponíveis": 1,
-        "Método(s) Recomendado(s)": "A+D",
-        "Justificativa": "Entrevistas com usuários mistos e questionários viáveis com recursos limitados para desempenho."
-      },
-      {
-        "Tipo de Tarefa": 3,
-        "Perfil do Usuário": 1,
-        "Ambiente": 2,
-        "Fase do SDLC": 3,
-        "Objetivo da Avaliação": 3,
-        "Recursos Disponíveis": 1,
-        "Método(s) Recomendado(s)": "D",
-        "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
-      },
-      {
-        "Tipo de Tarefa": 4,
-        "Perfil do Usuário": 3,
-        "Ambiente": 4,
-        "Fase do SDLC": 4,
-        "Objetivo da Avaliação": 4,
-        "Recursos Disponíveis": 2,
-        "Método(s) Recomendado(s)": "C+D",
-        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-      },
-      {
-        "Tipo de Tarefa": 4,
-        "Perfil do Usuário": 2,
-        "Ambiente": 1,
-        "Fase do SDLC": 3,
-        "Objetivo da Avaliação": 4,
-        "Recursos Disponíveis": 2,
-        "Método(s) Recomendado(s)": "A+C+D",
-        "Justificativa": "Ambiente controlado com especialistas permite uso de heurísticas, métodos instrumentais e escalas padronizadas."
-      },
-      {
-        "Tipo de Tarefa": 1,
-        "Perfil do Usuário": 1,
-        "Ambiente": 2,
-        "Fase do SDLC": 2,
-        "Objetivo da Avaliação": 2,
-        "Recursos Disponíveis": 3,
-        "Método(s) Recomendado(s)": "B",
-        "Justificativa": "Usuários leigos em campo/móvel exigem métodos qualitativos diretos e observacionais."
-      },
-      {
-        "Tipo de Tarefa": 3,
-        "Perfil do Usuário": 3,
-        "Ambiente": 2,
-        "Fase do SDLC": 2,
-        "Objetivo da Avaliação": 4,
-        "Recursos Disponíveis": 3,
-        "Método(s) Recomendado(s)": "C+D",
-        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-      },
-      {
-        "Tipo de Tarefa": 5,
-        "Perfil do Usuário": 3,
-        "Ambiente": 1,
-        "Fase do SDLC": 3,
-        "Objetivo da Avaliação": 4,
-        "Recursos Disponíveis": 3,
-        "Método(s) Recomendado(s)": "C+D",
-        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-      },
-      {
-        "Tipo de Tarefa": 4,
-        "Perfil do Usuário": 1,
-        "Ambiente": 3,
-        "Fase do SDLC": 1,
-        "Objetivo da Avaliação": 4,
-        "Recursos Disponíveis": 1,
-        "Método(s) Recomendado(s)": "C+D",
-        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-      },
-      {
-        "Tipo de Tarefa": 4,
-        "Perfil do Usuário": 3,
-        "Ambiente": 4,
-        "Fase do SDLC": 4,
-        "Objetivo da Avaliação": 4,
-        "Recursos Disponíveis": 2,
-        "Método(s) Recomendado(s)": "C+D",
-        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-      },
-      {
-        "Tipo de Tarefa": 3,
-        "Perfil do Usuário": 2,
-        "Ambiente": 4,
-        "Fase do SDLC": 2,
-        "Objetivo da Avaliação": 3,
-        "Recursos Disponíveis": 2,
-        "Método(s) Recomendado(s)": "B+D",
-        "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
-      },
-      {
-        "Tipo de Tarefa": 5,
-        "Perfil do Usuário": 1,
-        "Ambiente": 4,
-        "Fase do SDLC": 2,
-        "Objetivo da Avaliação": 3,
-        "Recursos Disponíveis": 3,
-        "Método(s) Recomendado(s)": "B",
-        "Justificativa": "Usuários leigos em campo/móvel exigem métodos qualitativos diretos e observacionais."
-      },
-      {
-        "Tipo de Tarefa": 1,
-        "Perfil do Usuário": 1,
-        "Ambiente": 2,
-        "Fase do SDLC": 2,
-        "Objetivo da Avaliação": 2,
-        "Recursos Disponíveis": 3,
-        "Método(s) Recomendado(s)": "B",
-        "Justificativa": "Usuários leigos em campo/móvel exigem métodos qualitativos diretos e observacionais."
-      },
-      {
-        "Tipo de Tarefa": 2,
-        "Perfil do Usuário": 1,
-        "Ambiente": 1,
-        "Fase do SDLC": 1,
-        "Objetivo da Avaliação": 4,
-        "Recursos Disponíveis": 2,
-        "Método(s) Recomendado(s)": "C+D",
-        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-      },
-      {
-        "Tipo de Tarefa": 1,
-        "Perfil do Usuário": 2,
-        "Ambiente": 3,
-        "Fase do SDLC": 1,
-        "Objetivo da Avaliação": 3,
-        "Recursos Disponíveis": 2,
-        "Método(s) Recomendado(s)": "B+D",
-        "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
-      },
-      {
-        "Tipo de Tarefa": 5,
-        "Perfil do Usuário": 3,
-        "Ambiente": 4,
-        "Fase do SDLC": 3,
-        "Objetivo da Avaliação": 3,
-        "Recursos Disponíveis": 1,
-        "Método(s) Recomendado(s)": "D",
-        "Justificativa": "Com recursos limitados, questionários padronizados são a alternativa mais viável."
-      },
-      {
-        "Tipo de Tarefa": 5,
-        "Perfil do Usuário": 2,
-        "Ambiente": 4,
-        "Fase do SDLC": 3,
-        "Objetivo da Avaliação": 2,
-        "Recursos Disponíveis": 2,
-        "Método(s) Recomendado(s)": "B+D",
-        "Justificativa": "Métodos mistos oferecem equilíbrio entre profundidade qualitativa e mensuração quantitativa."
-      },
-      {
-        "Tipo de Tarefa": 4,
-        "Perfil do Usuário": 2,
-        "Ambiente": 4,
-        "Fase do SDLC": 2,
-        "Objetivo da Avaliação": 4,
-        "Recursos Disponíveis": 2,
-        "Método(s) Recomendado(s)": "C+D",
-        "Justificativa": "Medição objetiva combinada com percepção subjetiva fornece uma visão abrangente do desempenho."
-      }
+  {
+    "Tipo de Tarefa": 2,
+    "Perfil do Usuário": 3,
+    "Ambiente": 3,
+    "Fase do SDLC": 4,
+    "Objetivo da Avaliação": 4,
+    "Recursos Disponíveis": 3,
+    "Método(s) Recomendado(s)": "C + D",
+    "Justificativa": "Instrumentação (data logging, eye tracking, métricas de tarefa) quantifica padrões e desempenho na interação com mapas.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação C + D: n=8 (8.2%); grupo C: n=23 (23.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Aplicação de teste empírico por meio de questionário online com tarefas de contagem visual. A avaliação de usabilidade considerou critérios de efetividade (sucesso, acurácia, tempo) e satisfação (grau de certeza dos usuários). Foi utilizada estatística descritiva e inferencial (binomial, t-student, ANOVA, Qui-quadrado).",
+      "Avaliação qualitativa baseada em feedback de usuários e análise de desempenho visual em tarefas de seleção temporal.",
+      "O estudo avaliou a usabilidade da plataforma CrimeTelescope por meio de uma pesquisa SUS (System Usability Scale). A avaliação também incluiu a medição do desempenho da previsão de crimes (eficácia).",
+      "Registro automatizado de interações + mineração de padrões + questionário pós-uso",
+      "SUS (System Usability Scale), incidentes críticos, observação direta e por vídeo, questionário sobre dinâmica de grupo e sugestões",
+      "Survey com escala de Likert, análise de uso (tempo e número de marcadores), grupo focal",
+      "abordagem exploratória, o método de inspeção e a System Usability Scale (SUS)",
+      "questionários quantitativos + feedback textual + desempenho em tarefas práticas"
     ]
+  },
+  {
+    "Tipo de Tarefa": 1,
+    "Perfil do Usuário": 2,
+    "Ambiente": 2,
+    "Fase do SDLC": 3,
+    "Objetivo da Avaliação": 1,
+    "Recursos Disponíveis": 1,
+    "Método(s) Recomendado(s)": "C + D",
+    "Justificativa": "Instrumentação (data logging, eye tracking, métricas de tarefa) quantifica padrões e desempenho na interação com mapas.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação C + D: n=8 (8.2%); grupo C: n=23 (23.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Aplicação de teste empírico por meio de questionário online com tarefas de contagem visual. A avaliação de usabilidade considerou critérios de efetividade (sucesso, acurácia, tempo) e satisfação (grau de certeza dos usuários). Foi utilizada estatística descritiva e inferencial (binomial, t-student, ANOVA, Qui-quadrado).",
+      "Avaliação qualitativa baseada em feedback de usuários e análise de desempenho visual em tarefas de seleção temporal.",
+      "O estudo avaliou a usabilidade da plataforma CrimeTelescope por meio de uma pesquisa SUS (System Usability Scale). A avaliação também incluiu a medição do desempenho da previsão de crimes (eficácia).",
+      "Registro automatizado de interações + mineração de padrões + questionário pós-uso",
+      "SUS (System Usability Scale), incidentes críticos, observação direta e por vídeo, questionário sobre dinâmica de grupo e sugestões",
+      "Survey com escala de Likert, análise de uso (tempo e número de marcadores), grupo focal",
+      "abordagem exploratória, o método de inspeção e a System Usability Scale (SUS)",
+      "questionários quantitativos + feedback textual + desempenho em tarefas práticas"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 1,
+    "Perfil do Usuário": 1,
+    "Ambiente": 1,
+    "Fase do SDLC": 3,
+    "Objetivo da Avaliação": 4,
+    "Recursos Disponíveis": 2,
+    "Método(s) Recomendado(s)": "C + D",
+    "Justificativa": "Instrumentação (data logging, eye tracking, métricas de tarefa) quantifica padrões e desempenho na interação com mapas.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação C + D: n=8 (8.2%); grupo C: n=23 (23.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Aplicação de teste empírico por meio de questionário online com tarefas de contagem visual. A avaliação de usabilidade considerou critérios de efetividade (sucesso, acurácia, tempo) e satisfação (grau de certeza dos usuários). Foi utilizada estatística descritiva e inferencial (binomial, t-student, ANOVA, Qui-quadrado).",
+      "Avaliação qualitativa baseada em feedback de usuários e análise de desempenho visual em tarefas de seleção temporal.",
+      "O estudo avaliou a usabilidade da plataforma CrimeTelescope por meio de uma pesquisa SUS (System Usability Scale). A avaliação também incluiu a medição do desempenho da previsão de crimes (eficácia).",
+      "Registro automatizado de interações + mineração de padrões + questionário pós-uso",
+      "SUS (System Usability Scale), incidentes críticos, observação direta e por vídeo, questionário sobre dinâmica de grupo e sugestões",
+      "Survey com escala de Likert, análise de uso (tempo e número de marcadores), grupo focal",
+      "abordagem exploratória, o método de inspeção e a System Usability Scale (SUS)",
+      "questionários quantitativos + feedback textual + desempenho em tarefas práticas"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 1,
+    "Perfil do Usuário": 3,
+    "Ambiente": 4,
+    "Fase do SDLC": 4,
+    "Objetivo da Avaliação": 3,
+    "Recursos Disponíveis": 3,
+    "Método(s) Recomendado(s)": "B + D",
+    "Justificativa": "Observação em contexto e etnografia leve capturam estratégias reais de navegação/visualização em WebGIS.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação B + D: n=6 (6.1%); grupo B: n=25 (25.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "O método empregado foi baseado em observações, formulário de feedback, e análises subjetivas, caracterizando abordagem qualitativa.",
+      "Questionário de avaliação de usabilidade (System Usability Scale - SUS) + análise das interações dos usuários com a ferramenta",
+      "Questionário e observação",
+      "System Usability Scale (SUS) + observação da criação de modelos pelos usuários",
+      "Testes de usabilidade baseados em observação direta, coleta de feedback dos usuários durante workshops, e aplicação de questionários.",
+      "Testes práticos com 14 tarefas + NGOMSL modelagem analítica + avaliação subjetiva"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 2,
+    "Perfil do Usuário": 1,
+    "Ambiente": 3,
+    "Fase do SDLC": 4,
+    "Objetivo da Avaliação": 2,
+    "Recursos Disponíveis": 3,
+    "Método(s) Recomendado(s)": "C + D",
+    "Justificativa": "Instrumentação (data logging, eye tracking, métricas de tarefa) quantifica padrões e desempenho na interação com mapas.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação C + D: n=8 (8.2%); grupo C: n=23 (23.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Aplicação de teste empírico por meio de questionário online com tarefas de contagem visual. A avaliação de usabilidade considerou critérios de efetividade (sucesso, acurácia, tempo) e satisfação (grau de certeza dos usuários). Foi utilizada estatística descritiva e inferencial (binomial, t-student, ANOVA, Qui-quadrado).",
+      "Avaliação qualitativa baseada em feedback de usuários e análise de desempenho visual em tarefas de seleção temporal.",
+      "O estudo avaliou a usabilidade da plataforma CrimeTelescope por meio de uma pesquisa SUS (System Usability Scale). A avaliação também incluiu a medição do desempenho da previsão de crimes (eficácia).",
+      "Registro automatizado de interações + mineração de padrões + questionário pós-uso",
+      "SUS (System Usability Scale), incidentes críticos, observação direta e por vídeo, questionário sobre dinâmica de grupo e sugestões",
+      "Survey com escala de Likert, análise de uso (tempo e número de marcadores), grupo focal",
+      "abordagem exploratória, o método de inspeção e a System Usability Scale (SUS)",
+      "questionários quantitativos + feedback textual + desempenho em tarefas práticas"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 4,
+    "Perfil do Usuário": 1,
+    "Ambiente": 2,
+    "Fase do SDLC": 3,
+    "Objetivo da Avaliação": 1,
+    "Recursos Disponíveis": 1,
+    "Método(s) Recomendado(s)": "B",
+    "Justificativa": "Observação em contexto e etnografia leve capturam estratégias reais de navegação/visualização em WebGIS.. Evidência na amostra: combinação B: n=3 (3.1%); grupo B: n=25 (25.5%).",
+    "Métodos Representativos (da amostra)": [
+      "\"estudo de usuário primário\" para demonstrar a usabilidade do software",
+      "Avaliação por especialistas e usuários finais em duas fases: análise de conformidade com parâmetros de qualidade (QIT) e posterior ranqueamento com base nas preferências do usuário.",
+      "Iterações com especialistas usando abordagem híbrida UCD com elementos de análise de tarefa e walkthrough cognitivo"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 1,
+    "Perfil do Usuário": 1,
+    "Ambiente": 2,
+    "Fase do SDLC": 3,
+    "Objetivo da Avaliação": 4,
+    "Recursos Disponíveis": 1,
+    "Método(s) Recomendado(s)": "B + D",
+    "Justificativa": "Observação em contexto e etnografia leve capturam estratégias reais de navegação/visualização em WebGIS.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação B + D: n=6 (6.1%); grupo B: n=25 (25.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "O método empregado foi baseado em observações, formulário de feedback, e análises subjetivas, caracterizando abordagem qualitativa.",
+      "Questionário de avaliação de usabilidade (System Usability Scale - SUS) + análise das interações dos usuários com a ferramenta",
+      "Questionário e observação",
+      "System Usability Scale (SUS) + observação da criação de modelos pelos usuários",
+      "Testes de usabilidade baseados em observação direta, coleta de feedback dos usuários durante workshops, e aplicação de questionários.",
+      "Testes práticos com 14 tarefas + NGOMSL modelagem analítica + avaliação subjetiva"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 1,
+    "Perfil do Usuário": 2,
+    "Ambiente": 3,
+    "Fase do SDLC": 4,
+    "Objetivo da Avaliação": 4,
+    "Recursos Disponíveis": 1,
+    "Método(s) Recomendado(s)": "A + D",
+    "Justificativa": "Métodos qualitativos (entrevistas, think‑aloud, grupos focais) revelam causas-raiz e barreiras cognitivas em tarefas cartográficas.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação A + D: n=6 (6.1%); grupo A: n=32 (32.7%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Aplicação de formulários de avaliação de usabilidade com tarefas definidas + discussão semiestruturada em sala. Baseado no modelo \"Usability Testing with Five Users\" de Nielsen.",
+      "Foram colhidas respostas qualitativas (opiniões dos usuários) e quantitativas (número de respostas positivas/negativas).",
+      "Formulário; Feedback",
+      "Questionário baseado em AUS (Application Usability Scale), observação direta (think-aloud), entrevistas qualitativas",
+      "Questionários com escala de Likert (SUS), testes de usabilidade em laboratório com protocolo think-aloud e surveys com especialistas remotos",
+      "Teste de usabilidade com tarefas práticas + questionário + entrevistas com especialistas e público"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 3,
+    "Perfil do Usuário": 1,
+    "Ambiente": 3,
+    "Fase do SDLC": 3,
+    "Objetivo da Avaliação": 3,
+    "Recursos Disponíveis": 1,
+    "Método(s) Recomendado(s)": "D",
+    "Justificativa": "Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação D: n=42 (42.9%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Análise exploratória de interface com base em revisão de literatura (heurísticas) + Simulações de usuário",
+      "Análise qualitativa baseada em critérios extraídos da literatura",
+      "Avaliação com base em questionários (likert) e comparação estatística.",
+      "Avaliação heurística baseada nos 10 princípios de Nielsen (heuristic evaluation)",
+      "Avaliação heurística por especialistas (SIRIUS) + ferramentas automáticas de acessibilidade (TAW, eXaminator, UTP)",
+      "Avaliação teórica com proposta metodológica baseada em modelos de qualidade e ANP",
+      "Delphi e pesquisa de opinião (survey estruturado) foram utilizados para avaliar a usabilidade e a efetividade da plataforma.",
+      "Estudo empírico com questionário online contendo 20 perguntas (13 abertas), aplicado a 105 usuários profissionais de geoportais. Trata-se de um método qualitativo.",
+      "Focus group; Think Aloud; SUS",
+      "Focus groups + Survey baseado em diretrizes da NIST (Common Industry Specification for Usability - CISU-R)",
+      "Heurísticas; Sem testes com usuários",
+      "Monitoramento de usuários; Questionário"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 1,
+    "Perfil do Usuário": 2,
+    "Ambiente": 2,
+    "Fase do SDLC": 4,
+    "Objetivo da Avaliação": 1,
+    "Recursos Disponíveis": 1,
+    "Método(s) Recomendado(s)": "D",
+    "Justificativa": "Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação D: n=42 (42.9%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Análise exploratória de interface com base em revisão de literatura (heurísticas) + Simulações de usuário",
+      "Análise qualitativa baseada em critérios extraídos da literatura",
+      "Avaliação com base em questionários (likert) e comparação estatística.",
+      "Avaliação heurística baseada nos 10 princípios de Nielsen (heuristic evaluation)",
+      "Avaliação heurística por especialistas (SIRIUS) + ferramentas automáticas de acessibilidade (TAW, eXaminator, UTP)",
+      "Avaliação teórica com proposta metodológica baseada em modelos de qualidade e ANP",
+      "Delphi e pesquisa de opinião (survey estruturado) foram utilizados para avaliar a usabilidade e a efetividade da plataforma.",
+      "Estudo empírico com questionário online contendo 20 perguntas (13 abertas), aplicado a 105 usuários profissionais de geoportais. Trata-se de um método qualitativo.",
+      "Focus group; Think Aloud; SUS",
+      "Focus groups + Survey baseado em diretrizes da NIST (Common Industry Specification for Usability - CISU-R)",
+      "Heurísticas; Sem testes com usuários",
+      "Monitoramento de usuários; Questionário"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 3,
+    "Perfil do Usuário": 2,
+    "Ambiente": 1,
+    "Fase do SDLC": 2,
+    "Objetivo da Avaliação": 2,
+    "Recursos Disponíveis": 3,
+    "Método(s) Recomendado(s)": "A + C + D",
+    "Justificativa": "Métodos qualitativos (entrevistas, think‑aloud, grupos focais) revelam causas-raiz e barreiras cognitivas em tarefas cartográficas.; Instrumentação (data logging, eye tracking, métricas de tarefa) quantifica padrões e desempenho na interação com mapas.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação A + C + D: n=4 (4.1%); grupo A: n=32 (32.7%); grupo C: n=23 (23.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Foram coletados: Tempo de conclusão da tarefa Precisão Satisfação do usuário (escala de 1 a 5) Além disso, houve questionário com perguntas abertas, configurando um método misto.",
+      "Survey com escala Likert, entrevista, análise de densidade de kernel dos pontos marcados, e classificação pós-processada de objetos georreferenciados",
+      "Testes práticos com tarefas, protocolo think-aloud, gravações com Morae, questionário online",
+      "testes práticos de tarefas, eye-tracking, questionário SUS, e protocolo think aloud"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 2,
+    "Perfil do Usuário": 1,
+    "Ambiente": 4,
+    "Fase do SDLC": 1,
+    "Objetivo da Avaliação": 1,
+    "Recursos Disponíveis": 2,
+    "Método(s) Recomendado(s)": "B",
+    "Justificativa": "Observação em contexto e etnografia leve capturam estratégias reais de navegação/visualização em WebGIS.. Evidência na amostra: combinação B: n=3 (3.1%); grupo B: n=25 (25.5%).",
+    "Métodos Representativos (da amostra)": [
+      "\"estudo de usuário primário\" para demonstrar a usabilidade do software",
+      "Avaliação por especialistas e usuários finais em duas fases: análise de conformidade com parâmetros de qualidade (QIT) e posterior ranqueamento com base nas preferências do usuário.",
+      "Iterações com especialistas usando abordagem híbrida UCD com elementos de análise de tarefa e walkthrough cognitivo"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 2,
+    "Perfil do Usuário": 1,
+    "Ambiente": 2,
+    "Fase do SDLC": 4,
+    "Objetivo da Avaliação": 4,
+    "Recursos Disponíveis": 1,
+    "Método(s) Recomendado(s)": "B",
+    "Justificativa": "Observação em contexto e etnografia leve capturam estratégias reais de navegação/visualização em WebGIS.. Evidência na amostra: combinação B: n=3 (3.1%); grupo B: n=25 (25.5%).",
+    "Métodos Representativos (da amostra)": [
+      "\"estudo de usuário primário\" para demonstrar a usabilidade do software",
+      "Avaliação por especialistas e usuários finais em duas fases: análise de conformidade com parâmetros de qualidade (QIT) e posterior ranqueamento com base nas preferências do usuário.",
+      "Iterações com especialistas usando abordagem híbrida UCD com elementos de análise de tarefa e walkthrough cognitivo"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 1,
+    "Perfil do Usuário": 2,
+    "Ambiente": 1,
+    "Fase do SDLC": 3,
+    "Objetivo da Avaliação": 1,
+    "Recursos Disponíveis": 2,
+    "Método(s) Recomendado(s)": "A + C + D",
+    "Justificativa": "Métodos qualitativos (entrevistas, think‑aloud, grupos focais) revelam causas-raiz e barreiras cognitivas em tarefas cartográficas.; Instrumentação (data logging, eye tracking, métricas de tarefa) quantifica padrões e desempenho na interação com mapas.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação A + C + D: n=4 (4.1%); grupo A: n=32 (32.7%); grupo C: n=23 (23.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Foram coletados: Tempo de conclusão da tarefa Precisão Satisfação do usuário (escala de 1 a 5) Além disso, houve questionário com perguntas abertas, configurando um método misto.",
+      "Survey com escala Likert, entrevista, análise de densidade de kernel dos pontos marcados, e classificação pós-processada de objetos georreferenciados",
+      "Testes práticos com tarefas, protocolo think-aloud, gravações com Morae, questionário online",
+      "testes práticos de tarefas, eye-tracking, questionário SUS, e protocolo think aloud"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 1,
+    "Perfil do Usuário": 3,
+    "Ambiente": 2,
+    "Fase do SDLC": 1,
+    "Objetivo da Avaliação": 4,
+    "Recursos Disponíveis": 1,
+    "Método(s) Recomendado(s)": "A + D",
+    "Justificativa": "Métodos qualitativos (entrevistas, think‑aloud, grupos focais) revelam causas-raiz e barreiras cognitivas em tarefas cartográficas.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação A + D: n=6 (6.1%); grupo A: n=32 (32.7%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Aplicação de formulários de avaliação de usabilidade com tarefas definidas + discussão semiestruturada em sala. Baseado no modelo \"Usability Testing with Five Users\" de Nielsen.",
+      "Foram colhidas respostas qualitativas (opiniões dos usuários) e quantitativas (número de respostas positivas/negativas).",
+      "Formulário; Feedback",
+      "Questionário baseado em AUS (Application Usability Scale), observação direta (think-aloud), entrevistas qualitativas",
+      "Questionários com escala de Likert (SUS), testes de usabilidade em laboratório com protocolo think-aloud e surveys com especialistas remotos",
+      "Teste de usabilidade com tarefas práticas + questionário + entrevistas com especialistas e público"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 5,
+    "Perfil do Usuário": 2,
+    "Ambiente": 2,
+    "Fase do SDLC": 4,
+    "Objetivo da Avaliação": 4,
+    "Recursos Disponíveis": 2,
+    "Método(s) Recomendado(s)": "C + D",
+    "Justificativa": "Instrumentação (data logging, eye tracking, métricas de tarefa) quantifica padrões e desempenho na interação com mapas.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação C + D: n=8 (8.2%); grupo C: n=23 (23.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Aplicação de teste empírico por meio de questionário online com tarefas de contagem visual. A avaliação de usabilidade considerou critérios de efetividade (sucesso, acurácia, tempo) e satisfação (grau de certeza dos usuários). Foi utilizada estatística descritiva e inferencial (binomial, t-student, ANOVA, Qui-quadrado).",
+      "Avaliação qualitativa baseada em feedback de usuários e análise de desempenho visual em tarefas de seleção temporal.",
+      "O estudo avaliou a usabilidade da plataforma CrimeTelescope por meio de uma pesquisa SUS (System Usability Scale). A avaliação também incluiu a medição do desempenho da previsão de crimes (eficácia).",
+      "Registro automatizado de interações + mineração de padrões + questionário pós-uso",
+      "SUS (System Usability Scale), incidentes críticos, observação direta e por vídeo, questionário sobre dinâmica de grupo e sugestões",
+      "Survey com escala de Likert, análise de uso (tempo e número de marcadores), grupo focal",
+      "abordagem exploratória, o método de inspeção e a System Usability Scale (SUS)",
+      "questionários quantitativos + feedback textual + desempenho em tarefas práticas"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 4,
+    "Perfil do Usuário": 1,
+    "Ambiente": 1,
+    "Fase do SDLC": 1,
+    "Objetivo da Avaliação": 4,
+    "Recursos Disponíveis": 2,
+    "Método(s) Recomendado(s)": "C + D",
+    "Justificativa": "Instrumentação (data logging, eye tracking, métricas de tarefa) quantifica padrões e desempenho na interação com mapas.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação C + D: n=8 (8.2%); grupo C: n=23 (23.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Aplicação de teste empírico por meio de questionário online com tarefas de contagem visual. A avaliação de usabilidade considerou critérios de efetividade (sucesso, acurácia, tempo) e satisfação (grau de certeza dos usuários). Foi utilizada estatística descritiva e inferencial (binomial, t-student, ANOVA, Qui-quadrado).",
+      "Avaliação qualitativa baseada em feedback de usuários e análise de desempenho visual em tarefas de seleção temporal.",
+      "O estudo avaliou a usabilidade da plataforma CrimeTelescope por meio de uma pesquisa SUS (System Usability Scale). A avaliação também incluiu a medição do desempenho da previsão de crimes (eficácia).",
+      "Registro automatizado de interações + mineração de padrões + questionário pós-uso",
+      "SUS (System Usability Scale), incidentes críticos, observação direta e por vídeo, questionário sobre dinâmica de grupo e sugestões",
+      "Survey com escala de Likert, análise de uso (tempo e número de marcadores), grupo focal",
+      "abordagem exploratória, o método de inspeção e a System Usability Scale (SUS)",
+      "questionários quantitativos + feedback textual + desempenho em tarefas práticas"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 3,
+    "Perfil do Usuário": 2,
+    "Ambiente": 4,
+    "Fase do SDLC": 3,
+    "Objetivo da Avaliação": 3,
+    "Recursos Disponíveis": 3,
+    "Método(s) Recomendado(s)": "B + D",
+    "Justificativa": "Observação em contexto e etnografia leve capturam estratégias reais de navegação/visualização em WebGIS.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação B + D: n=6 (6.1%); grupo B: n=25 (25.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "O método empregado foi baseado em observações, formulário de feedback, e análises subjetivas, caracterizando abordagem qualitativa.",
+      "Questionário de avaliação de usabilidade (System Usability Scale - SUS) + análise das interações dos usuários com a ferramenta",
+      "Questionário e observação",
+      "System Usability Scale (SUS) + observação da criação de modelos pelos usuários",
+      "Testes de usabilidade baseados em observação direta, coleta de feedback dos usuários durante workshops, e aplicação de questionários.",
+      "Testes práticos com 14 tarefas + NGOMSL modelagem analítica + avaliação subjetiva"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 1,
+    "Perfil do Usuário": 2,
+    "Ambiente": 4,
+    "Fase do SDLC": 2,
+    "Objetivo da Avaliação": 1,
+    "Recursos Disponíveis": 2,
+    "Método(s) Recomendado(s)": "B + D",
+    "Justificativa": "Observação em contexto e etnografia leve capturam estratégias reais de navegação/visualização em WebGIS.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação B + D: n=6 (6.1%); grupo B: n=25 (25.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "O método empregado foi baseado em observações, formulário de feedback, e análises subjetivas, caracterizando abordagem qualitativa.",
+      "Questionário de avaliação de usabilidade (System Usability Scale - SUS) + análise das interações dos usuários com a ferramenta",
+      "Questionário e observação",
+      "System Usability Scale (SUS) + observação da criação de modelos pelos usuários",
+      "Testes de usabilidade baseados em observação direta, coleta de feedback dos usuários durante workshops, e aplicação de questionários.",
+      "Testes práticos com 14 tarefas + NGOMSL modelagem analítica + avaliação subjetiva"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 5,
+    "Perfil do Usuário": 3,
+    "Ambiente": 1,
+    "Fase do SDLC": 3,
+    "Objetivo da Avaliação": 4,
+    "Recursos Disponíveis": 3,
+    "Método(s) Recomendado(s)": "C + D",
+    "Justificativa": "Instrumentação (data logging, eye tracking, métricas de tarefa) quantifica padrões e desempenho na interação com mapas.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação C + D: n=8 (8.2%); grupo C: n=23 (23.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Aplicação de teste empírico por meio de questionário online com tarefas de contagem visual. A avaliação de usabilidade considerou critérios de efetividade (sucesso, acurácia, tempo) e satisfação (grau de certeza dos usuários). Foi utilizada estatística descritiva e inferencial (binomial, t-student, ANOVA, Qui-quadrado).",
+      "Avaliação qualitativa baseada em feedback de usuários e análise de desempenho visual em tarefas de seleção temporal.",
+      "O estudo avaliou a usabilidade da plataforma CrimeTelescope por meio de uma pesquisa SUS (System Usability Scale). A avaliação também incluiu a medição do desempenho da previsão de crimes (eficácia).",
+      "Registro automatizado de interações + mineração de padrões + questionário pós-uso",
+      "SUS (System Usability Scale), incidentes críticos, observação direta e por vídeo, questionário sobre dinâmica de grupo e sugestões",
+      "Survey com escala de Likert, análise de uso (tempo e número de marcadores), grupo focal",
+      "abordagem exploratória, o método de inspeção e a System Usability Scale (SUS)",
+      "questionários quantitativos + feedback textual + desempenho em tarefas práticas"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 4,
+    "Perfil do Usuário": 1,
+    "Ambiente": 3,
+    "Fase do SDLC": 2,
+    "Objetivo da Avaliação": 1,
+    "Recursos Disponíveis": 2,
+    "Método(s) Recomendado(s)": "B + D",
+    "Justificativa": "Observação em contexto e etnografia leve capturam estratégias reais de navegação/visualização em WebGIS.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação B + D: n=6 (6.1%); grupo B: n=25 (25.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "O método empregado foi baseado em observações, formulário de feedback, e análises subjetivas, caracterizando abordagem qualitativa.",
+      "Questionário de avaliação de usabilidade (System Usability Scale - SUS) + análise das interações dos usuários com a ferramenta",
+      "Questionário e observação",
+      "System Usability Scale (SUS) + observação da criação de modelos pelos usuários",
+      "Testes de usabilidade baseados em observação direta, coleta de feedback dos usuários durante workshops, e aplicação de questionários.",
+      "Testes práticos com 14 tarefas + NGOMSL modelagem analítica + avaliação subjetiva"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 4,
+    "Perfil do Usuário": 2,
+    "Ambiente": 2,
+    "Fase do SDLC": 3,
+    "Objetivo da Avaliação": 4,
+    "Recursos Disponíveis": 3,
+    "Método(s) Recomendado(s)": "C + D",
+    "Justificativa": "Instrumentação (data logging, eye tracking, métricas de tarefa) quantifica padrões e desempenho na interação com mapas.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação C + D: n=8 (8.2%); grupo C: n=23 (23.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Aplicação de teste empírico por meio de questionário online com tarefas de contagem visual. A avaliação de usabilidade considerou critérios de efetividade (sucesso, acurácia, tempo) e satisfação (grau de certeza dos usuários). Foi utilizada estatística descritiva e inferencial (binomial, t-student, ANOVA, Qui-quadrado).",
+      "Avaliação qualitativa baseada em feedback de usuários e análise de desempenho visual em tarefas de seleção temporal.",
+      "O estudo avaliou a usabilidade da plataforma CrimeTelescope por meio de uma pesquisa SUS (System Usability Scale). A avaliação também incluiu a medição do desempenho da previsão de crimes (eficácia).",
+      "Registro automatizado de interações + mineração de padrões + questionário pós-uso",
+      "SUS (System Usability Scale), incidentes críticos, observação direta e por vídeo, questionário sobre dinâmica de grupo e sugestões",
+      "Survey com escala de Likert, análise de uso (tempo e número de marcadores), grupo focal",
+      "abordagem exploratória, o método de inspeção e a System Usability Scale (SUS)",
+      "questionários quantitativos + feedback textual + desempenho em tarefas práticas"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 5,
+    "Perfil do Usuário": 3,
+    "Ambiente": 4,
+    "Fase do SDLC": 3,
+    "Objetivo da Avaliação": 3,
+    "Recursos Disponíveis": 1,
+    "Método(s) Recomendado(s)": "D",
+    "Justificativa": "Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação D: n=42 (42.9%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Análise exploratória de interface com base em revisão de literatura (heurísticas) + Simulações de usuário",
+      "Análise qualitativa baseada em critérios extraídos da literatura",
+      "Avaliação com base em questionários (likert) e comparação estatística.",
+      "Avaliação heurística baseada nos 10 princípios de Nielsen (heuristic evaluation)",
+      "Avaliação heurística por especialistas (SIRIUS) + ferramentas automáticas de acessibilidade (TAW, eXaminator, UTP)",
+      "Avaliação teórica com proposta metodológica baseada em modelos de qualidade e ANP",
+      "Delphi e pesquisa de opinião (survey estruturado) foram utilizados para avaliar a usabilidade e a efetividade da plataforma.",
+      "Estudo empírico com questionário online contendo 20 perguntas (13 abertas), aplicado a 105 usuários profissionais de geoportais. Trata-se de um método qualitativo.",
+      "Focus group; Think Aloud; SUS",
+      "Focus groups + Survey baseado em diretrizes da NIST (Common Industry Specification for Usability - CISU-R)",
+      "Heurísticas; Sem testes com usuários",
+      "Monitoramento de usuários; Questionário"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 5,
+    "Perfil do Usuário": 2,
+    "Ambiente": 4,
+    "Fase do SDLC": 3,
+    "Objetivo da Avaliação": 2,
+    "Recursos Disponíveis": 2,
+    "Método(s) Recomendado(s)": "B + D",
+    "Justificativa": "Observação em contexto e etnografia leve capturam estratégias reais de navegação/visualização em WebGIS.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação B + D: n=6 (6.1%); grupo B: n=25 (25.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "O método empregado foi baseado em observações, formulário de feedback, e análises subjetivas, caracterizando abordagem qualitativa.",
+      "Questionário de avaliação de usabilidade (System Usability Scale - SUS) + análise das interações dos usuários com a ferramenta",
+      "Questionário e observação",
+      "System Usability Scale (SUS) + observação da criação de modelos pelos usuários",
+      "Testes de usabilidade baseados em observação direta, coleta de feedback dos usuários durante workshops, e aplicação de questionários.",
+      "Testes práticos com 14 tarefas + NGOMSL modelagem analítica + avaliação subjetiva"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 4,
+    "Perfil do Usuário": 3,
+    "Ambiente": 2,
+    "Fase do SDLC": 4,
+    "Objetivo da Avaliação": 2,
+    "Recursos Disponíveis": 2,
+    "Método(s) Recomendado(s)": "B + D",
+    "Justificativa": "Observação em contexto e etnografia leve capturam estratégias reais de navegação/visualização em WebGIS.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação B + D: n=6 (6.1%); grupo B: n=25 (25.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "O método empregado foi baseado em observações, formulário de feedback, e análises subjetivas, caracterizando abordagem qualitativa.",
+      "Questionário de avaliação de usabilidade (System Usability Scale - SUS) + análise das interações dos usuários com a ferramenta",
+      "Questionário e observação",
+      "System Usability Scale (SUS) + observação da criação de modelos pelos usuários",
+      "Testes de usabilidade baseados em observação direta, coleta de feedback dos usuários durante workshops, e aplicação de questionários.",
+      "Testes práticos com 14 tarefas + NGOMSL modelagem analítica + avaliação subjetiva"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 1,
+    "Perfil do Usuário": 1,
+    "Ambiente": 2,
+    "Fase do SDLC": 2,
+    "Objetivo da Avaliação": 2,
+    "Recursos Disponíveis": 3,
+    "Método(s) Recomendado(s)": "B",
+    "Justificativa": "Observação em contexto e etnografia leve capturam estratégias reais de navegação/visualização em WebGIS.. Evidência na amostra: combinação B: n=3 (3.1%); grupo B: n=25 (25.5%).",
+    "Métodos Representativos (da amostra)": [
+      "\"estudo de usuário primário\" para demonstrar a usabilidade do software",
+      "Avaliação por especialistas e usuários finais em duas fases: análise de conformidade com parâmetros de qualidade (QIT) e posterior ranqueamento com base nas preferências do usuário.",
+      "Iterações com especialistas usando abordagem híbrida UCD com elementos de análise de tarefa e walkthrough cognitivo"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 3,
+    "Perfil do Usuário": 2,
+    "Ambiente": 1,
+    "Fase do SDLC": 4,
+    "Objetivo da Avaliação": 4,
+    "Recursos Disponíveis": 2,
+    "Método(s) Recomendado(s)": "A + C + D",
+    "Justificativa": "Métodos qualitativos (entrevistas, think‑aloud, grupos focais) revelam causas-raiz e barreiras cognitivas em tarefas cartográficas.; Instrumentação (data logging, eye tracking, métricas de tarefa) quantifica padrões e desempenho na interação com mapas.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação A + C + D: n=4 (4.1%); grupo A: n=32 (32.7%); grupo C: n=23 (23.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Foram coletados: Tempo de conclusão da tarefa Precisão Satisfação do usuário (escala de 1 a 5) Além disso, houve questionário com perguntas abertas, configurando um método misto.",
+      "Survey com escala Likert, entrevista, análise de densidade de kernel dos pontos marcados, e classificação pós-processada de objetos georreferenciados",
+      "Testes práticos com tarefas, protocolo think-aloud, gravações com Morae, questionário online",
+      "testes práticos de tarefas, eye-tracking, questionário SUS, e protocolo think aloud"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 4,
+    "Perfil do Usuário": 2,
+    "Ambiente": 1,
+    "Fase do SDLC": 3,
+    "Objetivo da Avaliação": 4,
+    "Recursos Disponíveis": 2,
+    "Método(s) Recomendado(s)": "A + C + D",
+    "Justificativa": "Métodos qualitativos (entrevistas, think‑aloud, grupos focais) revelam causas-raiz e barreiras cognitivas em tarefas cartográficas.; Instrumentação (data logging, eye tracking, métricas de tarefa) quantifica padrões e desempenho na interação com mapas.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação A + C + D: n=4 (4.1%); grupo A: n=32 (32.7%); grupo C: n=23 (23.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Foram coletados: Tempo de conclusão da tarefa Precisão Satisfação do usuário (escala de 1 a 5) Além disso, houve questionário com perguntas abertas, configurando um método misto.",
+      "Survey com escala Likert, entrevista, análise de densidade de kernel dos pontos marcados, e classificação pós-processada de objetos georreferenciados",
+      "Testes práticos com tarefas, protocolo think-aloud, gravações com Morae, questionário online",
+      "testes práticos de tarefas, eye-tracking, questionário SUS, e protocolo think aloud"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 3,
+    "Perfil do Usuário": 3,
+    "Ambiente": 4,
+    "Fase do SDLC": 1,
+    "Objetivo da Avaliação": 1,
+    "Recursos Disponíveis": 1,
+    "Método(s) Recomendado(s)": "D",
+    "Justificativa": "Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação D: n=42 (42.9%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Análise exploratória de interface com base em revisão de literatura (heurísticas) + Simulações de usuário",
+      "Análise qualitativa baseada em critérios extraídos da literatura",
+      "Avaliação com base em questionários (likert) e comparação estatística.",
+      "Avaliação heurística baseada nos 10 princípios de Nielsen (heuristic evaluation)",
+      "Avaliação heurística por especialistas (SIRIUS) + ferramentas automáticas de acessibilidade (TAW, eXaminator, UTP)",
+      "Avaliação teórica com proposta metodológica baseada em modelos de qualidade e ANP",
+      "Delphi e pesquisa de opinião (survey estruturado) foram utilizados para avaliar a usabilidade e a efetividade da plataforma.",
+      "Estudo empírico com questionário online contendo 20 perguntas (13 abertas), aplicado a 105 usuários profissionais de geoportais. Trata-se de um método qualitativo.",
+      "Focus group; Think Aloud; SUS",
+      "Focus groups + Survey baseado em diretrizes da NIST (Common Industry Specification for Usability - CISU-R)",
+      "Heurísticas; Sem testes com usuários",
+      "Monitoramento de usuários; Questionário"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 3,
+    "Perfil do Usuário": 3,
+    "Ambiente": 2,
+    "Fase do SDLC": 2,
+    "Objetivo da Avaliação": 4,
+    "Recursos Disponíveis": 3,
+    "Método(s) Recomendado(s)": "C + D",
+    "Justificativa": "Instrumentação (data logging, eye tracking, métricas de tarefa) quantifica padrões e desempenho na interação com mapas.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação C + D: n=8 (8.2%); grupo C: n=23 (23.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Aplicação de teste empírico por meio de questionário online com tarefas de contagem visual. A avaliação de usabilidade considerou critérios de efetividade (sucesso, acurácia, tempo) e satisfação (grau de certeza dos usuários). Foi utilizada estatística descritiva e inferencial (binomial, t-student, ANOVA, Qui-quadrado).",
+      "Avaliação qualitativa baseada em feedback de usuários e análise de desempenho visual em tarefas de seleção temporal.",
+      "O estudo avaliou a usabilidade da plataforma CrimeTelescope por meio de uma pesquisa SUS (System Usability Scale). A avaliação também incluiu a medição do desempenho da previsão de crimes (eficácia).",
+      "Registro automatizado de interações + mineração de padrões + questionário pós-uso",
+      "SUS (System Usability Scale), incidentes críticos, observação direta e por vídeo, questionário sobre dinâmica de grupo e sugestões",
+      "Survey com escala de Likert, análise de uso (tempo e número de marcadores), grupo focal",
+      "abordagem exploratória, o método de inspeção e a System Usability Scale (SUS)",
+      "questionários quantitativos + feedback textual + desempenho em tarefas práticas"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 2,
+    "Perfil do Usuário": 3,
+    "Ambiente": 2,
+    "Fase do SDLC": 3,
+    "Objetivo da Avaliação": 2,
+    "Recursos Disponíveis": 2,
+    "Método(s) Recomendado(s)": "B + D",
+    "Justificativa": "Observação em contexto e etnografia leve capturam estratégias reais de navegação/visualização em WebGIS.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação B + D: n=6 (6.1%); grupo B: n=25 (25.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "O método empregado foi baseado em observações, formulário de feedback, e análises subjetivas, caracterizando abordagem qualitativa.",
+      "Questionário de avaliação de usabilidade (System Usability Scale - SUS) + análise das interações dos usuários com a ferramenta",
+      "Questionário e observação",
+      "System Usability Scale (SUS) + observação da criação de modelos pelos usuários",
+      "Testes de usabilidade baseados em observação direta, coleta de feedback dos usuários durante workshops, e aplicação de questionários.",
+      "Testes práticos com 14 tarefas + NGOMSL modelagem analítica + avaliação subjetiva"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 2,
+    "Perfil do Usuário": 1,
+    "Ambiente": 1,
+    "Fase do SDLC": 1,
+    "Objetivo da Avaliação": 4,
+    "Recursos Disponíveis": 2,
+    "Método(s) Recomendado(s)": "C + D",
+    "Justificativa": "Instrumentação (data logging, eye tracking, métricas de tarefa) quantifica padrões e desempenho na interação com mapas.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação C + D: n=8 (8.2%); grupo C: n=23 (23.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Aplicação de teste empírico por meio de questionário online com tarefas de contagem visual. A avaliação de usabilidade considerou critérios de efetividade (sucesso, acurácia, tempo) e satisfação (grau de certeza dos usuários). Foi utilizada estatística descritiva e inferencial (binomial, t-student, ANOVA, Qui-quadrado).",
+      "Avaliação qualitativa baseada em feedback de usuários e análise de desempenho visual em tarefas de seleção temporal.",
+      "O estudo avaliou a usabilidade da plataforma CrimeTelescope por meio de uma pesquisa SUS (System Usability Scale). A avaliação também incluiu a medição do desempenho da previsão de crimes (eficácia).",
+      "Registro automatizado de interações + mineração de padrões + questionário pós-uso",
+      "SUS (System Usability Scale), incidentes críticos, observação direta e por vídeo, questionário sobre dinâmica de grupo e sugestões",
+      "Survey com escala de Likert, análise de uso (tempo e número de marcadores), grupo focal",
+      "abordagem exploratória, o método de inspeção e a System Usability Scale (SUS)",
+      "questionários quantitativos + feedback textual + desempenho em tarefas práticas"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 1,
+    "Perfil do Usuário": 2,
+    "Ambiente": 3,
+    "Fase do SDLC": 1,
+    "Objetivo da Avaliação": 3,
+    "Recursos Disponíveis": 2,
+    "Método(s) Recomendado(s)": "B + D",
+    "Justificativa": "Observação em contexto e etnografia leve capturam estratégias reais de navegação/visualização em WebGIS.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação B + D: n=6 (6.1%); grupo B: n=25 (25.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "O método empregado foi baseado em observações, formulário de feedback, e análises subjetivas, caracterizando abordagem qualitativa.",
+      "Questionário de avaliação de usabilidade (System Usability Scale - SUS) + análise das interações dos usuários com a ferramenta",
+      "Questionário e observação",
+      "System Usability Scale (SUS) + observação da criação de modelos pelos usuários",
+      "Testes de usabilidade baseados em observação direta, coleta de feedback dos usuários durante workshops, e aplicação de questionários.",
+      "Testes práticos com 14 tarefas + NGOMSL modelagem analítica + avaliação subjetiva"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 2,
+    "Perfil do Usuário": 1,
+    "Ambiente": 4,
+    "Fase do SDLC": 2,
+    "Objetivo da Avaliação": 3,
+    "Recursos Disponíveis": 2,
+    "Método(s) Recomendado(s)": "B",
+    "Justificativa": "Observação em contexto e etnografia leve capturam estratégias reais de navegação/visualização em WebGIS.. Evidência na amostra: combinação B: n=3 (3.1%); grupo B: n=25 (25.5%).",
+    "Métodos Representativos (da amostra)": [
+      "\"estudo de usuário primário\" para demonstrar a usabilidade do software",
+      "Avaliação por especialistas e usuários finais em duas fases: análise de conformidade com parâmetros de qualidade (QIT) e posterior ranqueamento com base nas preferências do usuário.",
+      "Iterações com especialistas usando abordagem híbrida UCD com elementos de análise de tarefa e walkthrough cognitivo"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 5,
+    "Perfil do Usuário": 1,
+    "Ambiente": 4,
+    "Fase do SDLC": 2,
+    "Objetivo da Avaliação": 3,
+    "Recursos Disponíveis": 3,
+    "Método(s) Recomendado(s)": "B",
+    "Justificativa": "Observação em contexto e etnografia leve capturam estratégias reais de navegação/visualização em WebGIS.. Evidência na amostra: combinação B: n=3 (3.1%); grupo B: n=25 (25.5%).",
+    "Métodos Representativos (da amostra)": [
+      "\"estudo de usuário primário\" para demonstrar a usabilidade do software",
+      "Avaliação por especialistas e usuários finais em duas fases: análise de conformidade com parâmetros de qualidade (QIT) e posterior ranqueamento com base nas preferências do usuário.",
+      "Iterações com especialistas usando abordagem híbrida UCD com elementos de análise de tarefa e walkthrough cognitivo"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 4,
+    "Perfil do Usuário": 3,
+    "Ambiente": 4,
+    "Fase do SDLC": 4,
+    "Objetivo da Avaliação": 4,
+    "Recursos Disponíveis": 2,
+    "Método(s) Recomendado(s)": "C + D",
+    "Justificativa": "Instrumentação (data logging, eye tracking, métricas de tarefa) quantifica padrões e desempenho na interação com mapas.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação C + D: n=8 (8.2%); grupo C: n=23 (23.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Aplicação de teste empírico por meio de questionário online com tarefas de contagem visual. A avaliação de usabilidade considerou critérios de efetividade (sucesso, acurácia, tempo) e satisfação (grau de certeza dos usuários). Foi utilizada estatística descritiva e inferencial (binomial, t-student, ANOVA, Qui-quadrado).",
+      "Avaliação qualitativa baseada em feedback de usuários e análise de desempenho visual em tarefas de seleção temporal.",
+      "O estudo avaliou a usabilidade da plataforma CrimeTelescope por meio de uma pesquisa SUS (System Usability Scale). A avaliação também incluiu a medição do desempenho da previsão de crimes (eficácia).",
+      "Registro automatizado de interações + mineração de padrões + questionário pós-uso",
+      "SUS (System Usability Scale), incidentes críticos, observação direta e por vídeo, questionário sobre dinâmica de grupo e sugestões",
+      "Survey com escala de Likert, análise de uso (tempo e número de marcadores), grupo focal",
+      "abordagem exploratória, o método de inspeção e a System Usability Scale (SUS)",
+      "questionários quantitativos + feedback textual + desempenho em tarefas práticas"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 3,
+    "Perfil do Usuário": 2,
+    "Ambiente": 4,
+    "Fase do SDLC": 3,
+    "Objetivo da Avaliação": 1,
+    "Recursos Disponíveis": 1,
+    "Método(s) Recomendado(s)": "D",
+    "Justificativa": "Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação D: n=42 (42.9%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Análise exploratória de interface com base em revisão de literatura (heurísticas) + Simulações de usuário",
+      "Análise qualitativa baseada em critérios extraídos da literatura",
+      "Avaliação com base em questionários (likert) e comparação estatística.",
+      "Avaliação heurística baseada nos 10 princípios de Nielsen (heuristic evaluation)",
+      "Avaliação heurística por especialistas (SIRIUS) + ferramentas automáticas de acessibilidade (TAW, eXaminator, UTP)",
+      "Avaliação teórica com proposta metodológica baseada em modelos de qualidade e ANP",
+      "Delphi e pesquisa de opinião (survey estruturado) foram utilizados para avaliar a usabilidade e a efetividade da plataforma.",
+      "Estudo empírico com questionário online contendo 20 perguntas (13 abertas), aplicado a 105 usuários profissionais de geoportais. Trata-se de um método qualitativo.",
+      "Focus group; Think Aloud; SUS",
+      "Focus groups + Survey baseado em diretrizes da NIST (Common Industry Specification for Usability - CISU-R)",
+      "Heurísticas; Sem testes com usuários",
+      "Monitoramento de usuários; Questionário"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 4,
+    "Perfil do Usuário": 1,
+    "Ambiente": 3,
+    "Fase do SDLC": 1,
+    "Objetivo da Avaliação": 4,
+    "Recursos Disponíveis": 1,
+    "Método(s) Recomendado(s)": "C + D",
+    "Justificativa": "Instrumentação (data logging, eye tracking, métricas de tarefa) quantifica padrões e desempenho na interação com mapas.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação C + D: n=8 (8.2%); grupo C: n=23 (23.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Aplicação de teste empírico por meio de questionário online com tarefas de contagem visual. A avaliação de usabilidade considerou critérios de efetividade (sucesso, acurácia, tempo) e satisfação (grau de certeza dos usuários). Foi utilizada estatística descritiva e inferencial (binomial, t-student, ANOVA, Qui-quadrado).",
+      "Avaliação qualitativa baseada em feedback de usuários e análise de desempenho visual em tarefas de seleção temporal.",
+      "O estudo avaliou a usabilidade da plataforma CrimeTelescope por meio de uma pesquisa SUS (System Usability Scale). A avaliação também incluiu a medição do desempenho da previsão de crimes (eficácia).",
+      "Registro automatizado de interações + mineração de padrões + questionário pós-uso",
+      "SUS (System Usability Scale), incidentes críticos, observação direta e por vídeo, questionário sobre dinâmica de grupo e sugestões",
+      "Survey com escala de Likert, análise de uso (tempo e número de marcadores), grupo focal",
+      "abordagem exploratória, o método de inspeção e a System Usability Scale (SUS)",
+      "questionários quantitativos + feedback textual + desempenho em tarefas práticas"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 1,
+    "Perfil do Usuário": 2,
+    "Ambiente": 4,
+    "Fase do SDLC": 2,
+    "Objetivo da Avaliação": 3,
+    "Recursos Disponíveis": 3,
+    "Método(s) Recomendado(s)": "B + D",
+    "Justificativa": "Observação em contexto e etnografia leve capturam estratégias reais de navegação/visualização em WebGIS.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação B + D: n=6 (6.1%); grupo B: n=25 (25.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "O método empregado foi baseado em observações, formulário de feedback, e análises subjetivas, caracterizando abordagem qualitativa.",
+      "Questionário de avaliação de usabilidade (System Usability Scale - SUS) + análise das interações dos usuários com a ferramenta",
+      "Questionário e observação",
+      "System Usability Scale (SUS) + observação da criação de modelos pelos usuários",
+      "Testes de usabilidade baseados em observação direta, coleta de feedback dos usuários durante workshops, e aplicação de questionários.",
+      "Testes práticos com 14 tarefas + NGOMSL modelagem analítica + avaliação subjetiva"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 4,
+    "Perfil do Usuário": 2,
+    "Ambiente": 4,
+    "Fase do SDLC": 2,
+    "Objetivo da Avaliação": 4,
+    "Recursos Disponíveis": 2,
+    "Método(s) Recomendado(s)": "C + D",
+    "Justificativa": "Instrumentação (data logging, eye tracking, métricas de tarefa) quantifica padrões e desempenho na interação com mapas.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação C + D: n=8 (8.2%); grupo C: n=23 (23.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "Aplicação de teste empírico por meio de questionário online com tarefas de contagem visual. A avaliação de usabilidade considerou critérios de efetividade (sucesso, acurácia, tempo) e satisfação (grau de certeza dos usuários). Foi utilizada estatística descritiva e inferencial (binomial, t-student, ANOVA, Qui-quadrado).",
+      "Avaliação qualitativa baseada em feedback de usuários e análise de desempenho visual em tarefas de seleção temporal.",
+      "O estudo avaliou a usabilidade da plataforma CrimeTelescope por meio de uma pesquisa SUS (System Usability Scale). A avaliação também incluiu a medição do desempenho da previsão de crimes (eficácia).",
+      "Registro automatizado de interações + mineração de padrões + questionário pós-uso",
+      "SUS (System Usability Scale), incidentes críticos, observação direta e por vídeo, questionário sobre dinâmica de grupo e sugestões",
+      "Survey com escala de Likert, análise de uso (tempo e número de marcadores), grupo focal",
+      "abordagem exploratória, o método de inspeção e a System Usability Scale (SUS)",
+      "questionários quantitativos + feedback textual + desempenho em tarefas práticas"
+    ]
+  },
+  {
+    "Tipo de Tarefa": 3,
+    "Perfil do Usuário": 2,
+    "Ambiente": 3,
+    "Fase do SDLC": 2,
+    "Objetivo da Avaliação": 3,
+    "Recursos Disponíveis": 2,
+    "Método(s) Recomendado(s)": "B + D",
+    "Justificativa": "Observação em contexto e etnografia leve capturam estratégias reais de navegação/visualização em WebGIS.; Instrumentos padronizados (SUS, UEQ) e heurísticas escalam bem e priorizam melhorias com baixo custo.. Evidência na amostra: combinação B + D: n=6 (6.1%); grupo B: n=25 (25.5%); grupo D: n=73 (74.5%).",
+    "Métodos Representativos (da amostra)": [
+      "O método empregado foi baseado em observações, formulário de feedback, e análises subjetivas, caracterizando abordagem qualitativa.",
+      "Questionário de avaliação de usabilidade (System Usability Scale - SUS) + análise das interações dos usuários com a ferramenta",
+      "Questionário e observação",
+      "System Usability Scale (SUS) + observação da criação de modelos pelos usuários",
+      "Testes de usabilidade baseados em observação direta, coleta de feedback dos usuários durante workshops, e aplicação de questionários.",
+      "Testes práticos com 14 tarefas + NGOMSL modelagem analítica + avaliação subjetiva"
+    ]
+  }
+]
