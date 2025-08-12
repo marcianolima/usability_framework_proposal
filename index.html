@@ -93,7 +93,7 @@
 
   <script>
     let dados = [];
-    fetch("Regras_Framework_WebGIS_datadriven.json")
+    fetch("Regras_Framework_WebGIS_codificado.json")
       .then(res => { if (!res.ok) throw new Error("Falha ao carregar regras"); return res.json(); })
       .then(json => dados = json)
       .catch(err => { console.error(err); alert("Não foi possível carregar as regras. Verifique o arquivo JSON."); });
@@ -198,3 +198,4 @@
   </script>
 </body>
 </html>
+
