@@ -93,7 +93,7 @@
 
   <script>
     let dados = [];
-    fetch("Regras_Framework_WebGIS_codificado.json")
+    fetch("Regras_Framework_WebGIS_datadriven.json")
       .then(res => { if (!res.ok) throw new Error("Falha ao carregar regras"); return res.json(); })
       .then(json => dados = json)
       .catch(err => { console.error(err); alert("Não foi possível carregar as regras. Verifique o arquivo JSON."); });
@@ -177,13 +177,24 @@
     document.querySelectorAll('#formulario select').forEach(s => s.addEventListener('change', verificarSelecoes));
     document.addEventListener('DOMContentLoaded', verificarSelecoes);
 
+    // *** CORREÇÃO DO BOTÃO LIMPAR ***
     document.getElementById("limparBtn").addEventListener("click", function() {
-      document.getElementById("resultado").style.display = "none";
+      const form = document.getElementById("formulario");
+      form.reset(); // reseta todos os selects para o placeholder
+      // garante que todos os selects voltem ao índice 0 (placeholder)
+      form.querySelectorAll('select').forEach(s => s.selectedIndex = 0);
+
+      // limpa resultado e textos
+      document.getElementById("metodos").textContent = "";
+      document.getElementById("justificativa").textContent = "";
+      document.getElementById("evidencia").textContent = "";
       document.getElementById("metodosRep").innerHTML = "";
       document.getElementById("vizinhos").innerHTML = "";
+      document.getElementById("resultado").style.display = "none";
+
+      // re-desabilita o botão "Obter Recomendação"
       verificarSelecoes();
     });
   </script>
 </body>
 </html>
-
